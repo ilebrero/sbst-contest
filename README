@@ -1,0 +1,11 @@
+# Evosuite DSE module configuration for the SBST 2021 Tool competition
+
+## Details
+
+The DSE module is an ongoing work which is not currently  merged in Evosuite's main repository.
+
+For more information about this module see [this](http://dc.sigedep.exactas.uba.ar/media/academic/grade/thesis/Tesis_Ignacio_Lebrero.pdf) thesis (only in spanish for now) and it's related [PR](https://github.com/EvoSuite/evosuite/pull/281). (will update when it's merged)
+
+## Execution
+
+In order to execute this, follow the steps and examples [here](https://github.com/JUnitContest/junitcontest/blob/master/docs/USERGUIDE.md)

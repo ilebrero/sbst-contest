@@ -1,0 +1,15 @@
+README
+
+Building
+--------
+
+mvn package
+
+output:  target/runtool-1.0.jar
+copy-to: ../lib/runtool-1.0.jar
+
+Cleaning
+--------
+
+mvn clean
+
