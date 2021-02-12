@@ -1,0 +1,56 @@
+
+>>> TOOL NAME:  evosuiteDSE
+
+>>> BENCHMARK:  GUAVA-212
+
+>>> RUN NUMBER: 1
+
+>>> MODE: --only-generate-tests
+Creating directory ./temp
+Creating directory ./temp/data
+Creating directory ./temp/testcases
+Executing /home/evosuite/./runtool
+>> BENCHMARK
+>> /var/benchmarks/projects/guava/guava/src
+>> /var/benchmarks/projects/guava/guava/target/classes
+>> 1
+>> /var/benchmarks/projects/guava/guava/target/guava-28.2-jre.jar
+>> 1
+expecting CLASSPATH or READY
+<< CLASSPATH
+expecting number
+<< 1
+expecting directory or jar file
+<< /home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar
+<< READY
+>> 60
+Deleting file or directory ./temp/testcases
+Creating directory ./temp/testcases
+
+
+### CLASS UNDER TEST ###: com.google.common.net.MediaType
+>> com.google.common.net.MediaType
+TimeBudget: 60
+Search: 35
+Init  : 5
+Min   : 7
+Ass   : 4
+Extra : 60
+JUnit : 5
+Write : 4
+
+
+ Executing with internal budget of 60 sec and external budget of 120 sec 
+expecting: READY
+<< READY
+
+
+ Execution finished with no timeout
+>> >>/home/evosuite/./temp/testcases
+Stopping process...
+Tool subprocess is an instance of java.lang.UNIXProcess
+Tool subprocess Id is 7412
+Killing master process 7412
+Executing command kill -9 7412
+Execution of command kill -9 7412 finished.
+Process was destroyed

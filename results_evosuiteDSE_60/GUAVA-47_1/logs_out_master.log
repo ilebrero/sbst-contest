@@ -1,0 +1,3 @@
+[MASTER] 08:34:34.406 [logback-1] WARN  TestUsageChecker - class com.google.common.collect.FilteredEntryMultimap$AsMap$1ValuesImpl looks like an anonymous class, ignoring it (although reflection says false) ValuesImpl
+[MASTER] 08:34:34.407 [logback-1] WARN  TestUsageChecker - class com.google.common.collect.FilteredEntryMultimap$AsMap$1EntrySetImpl looks like an anonymous class, ignoring it (although reflection says false) EntrySetImpl
+[MASTER] 08:34:34.407 [logback-1] WARN  TestUsageChecker - class com.google.common.collect.FilteredEntryMultimap$AsMap$1KeySetImpl looks like an anonymous class, ignoring it (although reflection says false) KeySetImpl

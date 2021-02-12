@@ -19,7 +19,7 @@
 	<!-- different appenders for std out and err -->
 
 	<appender name="STDOUT_MASTER" class="ch.qos.logback.core.FileAppender">
-		<file>logs.log</file>
+		<file>logs_out_master.log</file>
     	<append>true</append>
 		<filter class="ch.qos.logback.classic.filter.LevelFilter">
 			<level>ERROR</level>
@@ -32,7 +32,7 @@
 	</appender>
 
 	<appender name="STDERR_MASTER" class="ch.qos.logback.core.FileAppender">
-		<file>logs.log</file>	
+		<file>logs_err_master.log</file>
     	<append>true</append>		<filter class="ch.qos.logback.classic.filter.LevelFilter">
 			<level>ERROR</level>
 			<onMatch>ACCEPT</onMatch>
@@ -72,7 +72,7 @@
 		outputting standard information to the user. so, it's level is always ALL. -->
 
 	<appender name="EVO_LOGGER_MASTER" class="ch.qos.logback.core.FileAppender">
-		<file>logs.log</file>
+		<file>logs_evo.log</file>
     	<append>true</append>
 		<encoder>
 			<pattern>%msg%n</pattern>

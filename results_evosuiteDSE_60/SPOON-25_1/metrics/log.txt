@@ -1,0 +1,51 @@
+
+>>> TOOL NAME:  evosuiteDSE
+
+>>> BENCHMARK:  SPOON-25
+
+>>> RUN NUMBER: 1
+
+>>> MODE: --only-compute-metrics
+
+
+### COMPUTING METRICS ###: spoon.pattern.internal.ValueConvertorImpl
+
+---Compilation---
+Compiling with scaffolding tests
+>>  /home/evosuite/results_evosuiteDSE_60/SPOON-25_1/temp/testcases/spoon/pattern/internal/ValueConvertorImpl_ESTest_scaffolding.java /home/evosuite/results_evosuiteDSE_60/SPOON-25_1/temp/testcases/spoon/pattern/internal/ValueConvertorImpl_ESTest.java
+Compiled 'spoon/pattern/internal/ValueConvertorImpl_ESTest.java'
+Compiling with scaffolding tests
+
+---Timing Information---
+
+---The tests are re-executed other four times to find the flaky ones---
+
+=== Run Jacoco for Coverage ===
+
+=== Run PIT ===
+Executing Mutation Analysis using 72 mutants 
+
+>>> RESULTS:
+	Tool name: evosuiteDSE
+	Benchmark: SPOON-25
+	Class Under Test: spoon.pattern.internal.ValueConvertorImpl
+	Run number: 1
+	Tool preparation time (ms): 209
+	Tool test cases generation time (ms): 7716
+	Test cases execution time (ms): 506
+	Test case number: 1
+	Uncompilable Test Classes: 0
+	Broken tests number: 0
+	Failing tests number: 0
+	Lines total: 80
+	Lines covered: 0
+	Lines coverage ratio (%): 0.0
+	Conditions total: 84
+	Conditions covered: 0
+	Conditions coverage ratio (%): 0.0
+	Mutants total: 72
+	Mutants covered: 0
+	Mutants coverage ratio (%): 0.0
+	Mutants killed: 0
+	Mutants killed ratio (%): 0.0
+	Mutants alive: 72

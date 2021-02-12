@@ -1,0 +1,23 @@
+N. of generated mutants 6
+N. of covered mutants 6
+N. of killed mutants 6
+N. of ignored mutants 0
+
+
+ --- Tests killing mutants --- 
+ Mutant: 0	 ---> MutationDetails [id=MutationIdentifier [location=Location [clazz=com.alibaba.fescar.core.protocol.ResultCode, method=get, methodDesc=(I)Lcom/alibaba/fescar/core/protocol/ResultCode;], indexes=[28], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator], filename=ResultCode.java, block=4, lineNumber=33, description=mutated return of Object value for com/alibaba/fescar/core/protocol/ResultCode::get to ( if (x != null) null else throw new RuntimeException ), testsInOrder=[]]
+Mutant: 1	 ---> MutationDetails [id=MutationIdentifier [location=Location [clazz=com.alibaba.fescar.core.protocol.ResultCode, method=get, methodDesc=(I)Lcom/alibaba/fescar/core/protocol/ResultCode;], indexes=[14], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator], filename=ResultCode.java, block=2, lineNumber=31, description=changed conditional boundary, testsInOrder=[]]
+Mutant: 2	 ---> MutationDetails [id=MutationIdentifier [location=Location [clazz=com.alibaba.fescar.core.protocol.ResultCode, method=get, methodDesc=(B)Lcom/alibaba/fescar/core/protocol/ResultCode;], indexes=[5], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator], filename=ResultCode.java, block=1, lineNumber=28, description=mutated return of Object value for com/alibaba/fescar/core/protocol/ResultCode::get to ( if (x != null) null else throw new RuntimeException ), testsInOrder=[]]
+Mutant: 3	 ---> MutationDetails [id=MutationIdentifier [location=Location [clazz=com.alibaba.fescar.core.protocol.ResultCode, method=get, methodDesc=(I)Lcom/alibaba/fescar/core/protocol/ResultCode;], indexes=[24], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=ResultCode.java, block=3, lineNumber=32, description=negated conditional, testsInOrder=[]]
+Mutant: 4	 ---> MutationDetails [id=MutationIdentifier [location=Location [clazz=com.alibaba.fescar.core.protocol.ResultCode, method=get, methodDesc=(I)Lcom/alibaba/fescar/core/protocol/ResultCode;], indexes=[14], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=ResultCode.java, block=2, lineNumber=31, description=negated conditional, testsInOrder=[]]
+Mutant: 5	 ---> MutationDetails [id=MutationIdentifier [location=Location [clazz=com.alibaba.fescar.core.protocol.ResultCode, method=get, methodDesc=(I)Lcom/alibaba/fescar/core/protocol/ResultCode;], indexes=[32], mutator=org.pitest.mutationtest.engine.gregor.mutators.IncrementsMutator], filename=ResultCode.java, block=5, lineNumber=31, description=Changed increment from 1 to -1, testsInOrder=[]]
+
+
+ --- Mutants details--- 
+ Mutant: 0, killed by tests [(com.alibaba.fescar.core.protocol.ResultCode_ESTest),test0)]
+Mutant: 1, killed by tests [(com.alibaba.fescar.core.protocol.ResultCode_ESTest),test1)]
+Mutant: 2, killed by tests [(com.alibaba.fescar.core.protocol.ResultCode_ESTest),test0)]
+Mutant: 3, killed by tests [(com.alibaba.fescar.core.protocol.ResultCode_ESTest),test0)]
+Mutant: 4, killed by tests [(com.alibaba.fescar.core.protocol.ResultCode_ESTest),test0)]
+Mutant: 5, killed by tests [(com.alibaba.fescar.core.protocol.ResultCode_ESTest),test1)]
+

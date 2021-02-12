@@ -15,7 +15,7 @@ public class EvoSuiteTestingTool implements ITestingTool {
 	
 	public List<File> getExtraClassPath() {
         List<File> extra = new ArrayList<File>();
-		File evoJar = new File("lib"+File.separator+"evosuite-master-1.0.7-SNAPSHOT.jar");
+		File evoJar = new File("lib"+File.separator+"evosuite-master-1.1.1-SNAPSHOT.jar");
 		if(!evoJar.exists()){
 			System.err.println("Wrong EvoSuite jar setting, jar is not at: "+evoJar.getAbsolutePath());
 		} else {
@@ -98,10 +98,17 @@ public class EvoSuiteTestingTool implements ITestingTool {
 
         List<String> commands = new ArrayList<String>();
 		commands.addAll(Arrays.asList(
-				"-generateMOSuite",
-		        "-Dalgorithm=DynaMOSA",
-		        "-class",
+			//"-generateMOSuite",
+		        //"-Dalgorithm=DynaMOSA",
+			"-generateSuiteUsingDSE",
 		        cName,
+			"-Ddse_solver=CVC4_SOLVER",
+			"-Dcvc4_path=\"/usr/bin/cvc4\"",
+			"-Dselected_dse_module_arrays_support_version=LAZY_VARIABLES",
+			"-Ddse_exploration_algorithm=GENERATIONAL_SEARCH",
+			"-Ddse_module_version=NEW",
+			"-Ddse_stopping_condition=MaxTime",
+		        "-class",
 		        "-Duse_deprecated=true",
 //		        "-Dreplace_calls=false",
 		        "-Dshow_progress=false", 

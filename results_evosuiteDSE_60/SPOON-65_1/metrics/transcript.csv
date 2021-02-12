@@ -1,0 +1,6 @@
+tool,benchmark,class,run,preparationTime,generationTime,executionTime,testcaseNumber,uncompilableNumber,brokenTests,failTests,linesTotal,linesCovered,linesCoverageRatio,conditionsTotal,conditionsCovered,conditionsCoverageRatio,mutantsTotal,mutantsCovered,mutantsCoverageRatio,mutantsKilled,mutantsKillRatio,mutantsAlive,timeBudget,totalTestClasses
+evosuiteDSE,SPOON-65,spoon.support.DefaultCoreFactory,1,206,8354,480,1,0,0,0,438,0,0.0,166,0,0.0,171,0,0.0,0,0.0,171,60,2
+ 
+ 
+ 
+

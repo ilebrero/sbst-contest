@@ -1,0 +1,53 @@
+* EvoSuite 1.1.1-SNAPSHOT
+* Going to generate test cases for class: com.google.common.primitives.Doubles
+* Starting Client-0
+* Connecting to master process on port 21906
+* Analyzing classpath: 
+  - /var/benchmarks/projects/guava/guava/target/classes
+  - /var/benchmarks/projects/guava/guava/target/guava-28.2-jre.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.common.primitives.Doubles
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up DSE test suite generation
+* Total number of test goals: 115
+* Using seed 1613118942766
+* Starting DSE
+* Using DSE algorithm: GENERATIONAL_SEARCH
+* With timeout: 35
+* With target coverage: 100
+* Symbolic arrays support enabled: true
+* Symbolic arrays implementation selected: LAZY_VARIABLES
+* Generating tests for entry method: contains
+* DSE test generation finished. Generated 9 test for method contains.
+* Generating tests for entry method: isFinite
+* DSE test generation finished. Generated 1 test for method isFinite.
+* Generating tests for entry method: stringConverter
+* DSE test generation finished. Generated 1 test for method stringConverter.
+* Generating tests for entry method: constrainToRange
+* DSE test generation finished. Generated 2 test for method constrainToRange.
+* Generating tests for entry method: max
+* DSE test generation finished. Generated 1 test for method max.
+* Generating tests for entry method: min
+* DSE test generation finished. Generated 1 test for method min.
+* Generating tests for entry method: concat
+* DSE test generation finished. Generated 1 test for method concat.
+* Generating tests for entry method: ensureCapacity
+* DSE test generation finished. Generated 4 test for method ensureCapacity.
+* Generating tests for entry method: toArray
+* DSE test generation finished. Generated 1 test for method toArray.
+* Generating tests for entry method: compare
+* DSE test generation finished. Generated 1 test for method compare.
+* Generating tests for entry method: hashCode
+* DSE test generation finished. Generated 1 test for method hashCode.
+* Generating tests for entry method: indexOf
+* DSE test generation finished. Generated 1 test for method indexOf.
+* Generating tests for entry method: indexOf
+* Computation finished

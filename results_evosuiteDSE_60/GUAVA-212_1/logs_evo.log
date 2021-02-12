@@ -1,0 +1,56 @@
+* EvoSuite 1.1.1-SNAPSHOT
+* Going to generate test cases for class: com.google.common.net.MediaType
+* Starting Client-0
+* Connecting to master process on port 20664
+* Analyzing classpath: 
+  - /var/benchmarks/projects/guava/guava/target/classes
+  - /var/benchmarks/projects/guava/guava/target/guava-28.2-jre.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.common.net.MediaType
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up DSE test suite generation
+* Total number of test goals: 111
+* Using seed 1613119005876
+* Starting DSE
+* Using DSE algorithm: GENERATIONAL_SEARCH
+* With timeout: 35
+* With target coverage: 100
+* Symbolic arrays support enabled: true
+* Symbolic arrays implementation selected: LAZY_VARIABLES
+* Generating tests for entry method: create
+* DSE test generation finished. Generated 1 test for method create.
+* Generating tests for entry method: parse
+* DSE test generation finished. Generated 1 test for method parse.
+* Generating tests for entry method: access$000
+* DSE test generation finished. Generated 1 test for method access$000.
+* Generating tests for entry method: createApplicationType
+* DSE test generation finished. Generated 1 test for method createApplicationType.
+* Generating tests for entry method: createAudioType
+* DSE test generation finished. Generated 1 test for method createAudioType.
+* Generating tests for entry method: createImageType
+* DSE test generation finished. Generated 1 test for method createImageType.
+* Generating tests for entry method: createTextType
+* DSE test generation finished. Generated 1 test for method createTextType.
+* Generating tests for entry method: createVideoType
+* DSE test generation finished. Generated 1 test for method createVideoType.
+* Generating tests for entry method: access$100
+* DSE test generation finished. Generated 1 test for method access$100.
+* Search finished after 0s, fitness: 119.0 and coverage: 0.04504504504504504
+* Minimizing test suite
+* Generated 2 tests with total length 4
+* Resulting test suite's coverage: 5%
+* Generating assertions
+* Compiling and checking tests
+* Writing tests to file
+* Writing JUnit test case 'MediaType_ESTest' to temp/testcases
+* Done!
+
+* Computation finished

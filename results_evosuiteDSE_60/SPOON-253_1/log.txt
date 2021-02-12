@@ -1,0 +1,18 @@
+
+>>> TOOL NAME:  evosuiteDSE
+
+>>> BENCHMARK:  SPOON-253
+
+>>> RUN NUMBER: 1
+
+>>> MODE: --only-generate-tests
+
+
+### CLASS UNDER TEST ###: spoon.pattern.internal.parameter.MapParameterInfo
+
+
+ Executing with internal budget of 60 sec and external budget of 120 sec 
+
+
+ Execution finished with no timeout
+>> >>/home/evosuite/./temp/testcases

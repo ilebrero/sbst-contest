@@ -13,7 +13,7 @@
 			<artifactId>evosuite</artifactId>
 			<version>1</version>
 			<scope>system</scope>
-			<systemPath>${project.basedir}/lib/evosuite-master-1.0.7-SNAPSHOT.jar</systemPath>
+			<systemPath>${project.basedir}/lib/evosuite-master-1.1.1-SNAPSHOT.jar</systemPath>
 		</dependency>
 	</dependencies>
   

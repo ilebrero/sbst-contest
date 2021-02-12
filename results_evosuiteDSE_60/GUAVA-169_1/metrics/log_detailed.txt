@@ -1,0 +1,600 @@
+
+>>> TOOL NAME:  evosuiteDSE
+
+>>> BENCHMARK:  GUAVA-169
+
+>>> RUN NUMBER: 1
+
+>>> MODE: --only-compute-metrics
+Creating directory ./temp
+Creating directory ./temp/data
+Creating directory ./temp/testcases
+Executing /home/evosuite/./runtool
+>> BENCHMARK
+>> /var/benchmarks/projects/guava/guava/src
+>> /var/benchmarks/projects/guava/guava/target/classes
+>> 1
+>> /var/benchmarks/projects/guava/guava/target/guava-28.2-jre.jar
+>> 0
+expecting CLASSPATH or READY
+<< CLASSPATH
+expecting number
+<< 1
+expecting directory or jar file
+<< /home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar
+<< READY
+>> 60
+
+
+### COMPUTING METRICS ###: com.google.common.math.LongMath
+
+
+Starting class com.google.common.math.LongMath
+
+
+Ending class com.google.common.math.LongMath
+Creating directory results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/bin
+Creating dummy JUnit test file
+
+---Compilation---
+
+===
+javac command line:
+/usr/bin/javac -sourcepath /home/evosuite/results_evosuiteDSE_60/GUAVA-169_1/temp/testcases -cp /var/benchmarks/projects/guava/guava/target/guava-28.2-jre.jar:/usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar -d results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/bin /home/evosuite/results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/SBSTDummyForCoverageAndMutationCalculation.java
+
+Compiling with scaffolding tests
+>>  /home/evosuite/results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/com/google/common/math/LongMath_ESTest_scaffolding.java /home/evosuite/results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/com/google/common/math/LongMath_ESTest.java
+
+===
+javac command line:
+/usr/bin/javac -sourcepath /home/evosuite/results_evosuiteDSE_60/GUAVA-169_1/temp/testcases -cp /var/benchmarks/projects/guava/guava/target/guava-28.2-jre.jar:/usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar -d results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/bin  /home/evosuite/results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/com/google/common/math/LongMath_ESTest_scaffolding.java /home/evosuite/results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/com/google/common/math/LongMath_ESTest.java
+
+Compiled 'com/google/common/math/LongMath_ESTest.java'
+Compiling with scaffolding tests
+
+---Timing Information---
+Running tests with the following classpath: 
+/var/benchmarks/projects/guava/guava/target/guava-28.2-jre.jar:/usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/bin:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar
+Running the tests: [SBSTDummyForCoverageAndMutationCalculation, com.google.common.math.LongMath_ESTest]
+Executions terminated
+
+---The tests are re-executed other four times to find the flaky ones---
+Running the tests: [SBSTDummyForCoverageAndMutationCalculation, com.google.common.math.LongMath_ESTest]
+Executions terminated
+Running the tests: [SBSTDummyForCoverageAndMutationCalculation, com.google.common.math.LongMath_ESTest]
+Executions terminated
+Running the tests: [SBSTDummyForCoverageAndMutationCalculation, com.google.common.math.LongMath_ESTest]
+Executions terminated
+Running the tests: [SBSTDummyForCoverageAndMutationCalculation, com.google.common.math.LongMath_ESTest]
+Executions terminated
+
+=== Run Jacoco for Coverage ===
+Number of instrumented file = 1968
+Running tests with the following classpath: 
+/home/evosuite/results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/guava-28.2-jre_instrumented.jar:/usr/local/bin/lib/hamcrest-core.jar:/usr/local/bin/lib/junit.jar:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/bin
+Running the tests: [SBSTDummyForCoverageAndMutationCalculation, com.google.common.math.LongMath_ESTest]
+Executions terminated
+Number of file with coverage information = 1968
+Extracted coverage data for the class com/google/common/math/LongMath
+
+=== Run PIT ===
+Matching Jacoco with PIT: find covered mutations
+Executing Mutation Analysis using 142 mutants 
+Could not make a copy of the SUT /var/benchmarks/projects/guava/guava/target/guava-28.2-jre.jar
+java.io.IOException: Source '/var/benchmarks/projects/guava/guava/target/guava-28.2-jre.jar' exists but is not a directory
+	at shaded.org.apache.commons.io.FileUtils.copyDirectory(FileUtils.java:1371)
+	at shaded.org.apache.commons.io.FileUtils.copyDirectory(FileUtils.java:1261)
+	at shaded.org.apache.commons.io.FileUtils.copyDirectory(FileUtils.java:1230)
+	at sbst.benchmark.pitest.MutationsEvaluator.createSUTCopy(MutationsEvaluator.java:288)
+	at sbst.benchmark.pitest.MutationsEvaluator.runMutations(MutationsEvaluator.java:104)
+	at sbst.benchmark.TestSuite.mutationAnalysis(TestSuite.java:508)
+	at sbst.benchmark.TestSuite.<init>(TestSuite.java:73)
+	at sbst.benchmark.TranscriptWriter.endClass(TranscriptWriter.java:136)
+	at sbst.benchmark.RunTool.execute(RunTool.java:141)
+	at sbst.benchmark.RunTool.run(RunTool.java:62)
+	at sbst.benchmark.Main.main(Main.java:160)
+Evaluating mutant -1227058148 using tests: [com.google.common.math.LongMath_ESTest, com.google.common.math.LongMath_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/CUT0
+
+Skipped scaffolding test com.google.common.math.LongMath_ESTest_scaffolding
+Failed test test30(com.google.common.math.LongMath_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=pow, methodDesc=(JI)J], indexes=[26], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] killed by test (com.google.common.math.LongMath_ESTest),test30)
+Evaluating mutant -1515069008 using tests: [com.google.common.math.LongMath_ESTest, com.google.common.math.LongMath_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/CUT1
+
+Skipped scaffolding test com.google.common.math.LongMath_ESTest_scaffolding
+Failed test test30(com.google.common.math.LongMath_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=saturatedAdd, methodDesc=(JJ)J], indexes=[27], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] killed by test (com.google.common.math.LongMath_ESTest),test30)
+Evaluating mutant 579242439 using tests: [com.google.common.math.LongMath_ESTest, com.google.common.math.LongMath_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/CUT2
+
+Skipped scaffolding test com.google.common.math.LongMath_ESTest_scaffolding
+Failed test test30(com.google.common.math.LongMath_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=mean, methodDesc=(JJ)J], indexes=[12], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator] killed by test (com.google.common.math.LongMath_ESTest),test30)
+Evaluating mutant 1847639201 using tests: [com.google.common.math.LongMath_ESTest, com.google.common.math.LongMath_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/CUT3
+
+Skipped scaffolding test com.google.common.math.LongMath_ESTest_scaffolding
+Failed test test30(com.google.common.math.LongMath_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=factorial, methodDesc=(I)J], indexes=[12], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] killed by test (com.google.common.math.LongMath_ESTest),test30)
+Evaluating mutant 1582995804 using tests: [com.google.common.math.LongMath_ESTest, com.google.common.math.LongMath_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/CUT4
+
+Skipped scaffolding test com.google.common.math.LongMath_ESTest_scaffolding
+Failed test test30(com.google.common.math.LongMath_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=saturatedSubtract, methodDesc=(JJ)J], indexes=[35], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator] killed by test (com.google.common.math.LongMath_ESTest),test30)
+Evaluating mutant -675439813 using tests: [com.google.common.math.LongMath_ESTest, com.google.common.math.LongMath_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/CUT5
+
+Skipped scaffolding test com.google.common.math.LongMath_ESTest_scaffolding
+Failed test test30(com.google.common.math.LongMath_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=checkedPow, methodDesc=(JI)J], indexes=[32], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] killed by test (com.google.common.math.LongMath_ESTest),test30)
+Evaluating mutant -1500895219 using tests: [com.google.common.math.LongMath_ESTest, com.google.common.math.LongMath_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/CUT6
+
+Skipped scaffolding test com.google.common.math.LongMath_ESTest_scaffolding
+Failed test test30(com.google.common.math.LongMath_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=saturatedPow, methodDesc=(JI)J], indexes=[32], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] killed by test (com.google.common.math.LongMath_ESTest),test30)
+Evaluating mutant 1502723481 using tests: [com.google.common.math.LongMath_ESTest, com.google.common.math.LongMath_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/CUT7
+
+Skipped scaffolding test com.google.common.math.LongMath_ESTest_scaffolding
+Failed test test30(com.google.common.math.LongMath_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=saturatedMultiply, methodDesc=(JJ)J], indexes=[31], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator] killed by test (com.google.common.math.LongMath_ESTest),test30)
+Evaluating mutant 1582985233 using tests: [com.google.common.math.LongMath_ESTest, com.google.common.math.LongMath_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/CUT8
+
+Skipped scaffolding test com.google.common.math.LongMath_ESTest_scaffolding
+Failed test test30(com.google.common.math.LongMath_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=saturatedSubtract, methodDesc=(JJ)J], indexes=[24], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator] killed by test (com.google.common.math.LongMath_ESTest),test30)
+Evaluating mutant -949704856 using tests: [com.google.common.math.LongMath_ESTest, com.google.common.math.LongMath_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/CUT9
+
+Skipped scaffolding test com.google.common.math.LongMath_ESTest_scaffolding
+Failed test test30(com.google.common.math.LongMath_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=checkedMultiply, methodDesc=(JJ)J], indexes=[13], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator] killed by test (com.google.common.math.LongMath_ESTest),test30)
+Evaluating mutant 1332603517 using tests: [com.google.common.math.LongMath_ESTest, com.google.common.math.LongMath_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/CUT10
+
+Skipped scaffolding test com.google.common.math.LongMath_ESTest_scaffolding
+Failed test test30(com.google.common.math.LongMath_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=isPowerOfTwo, methodDesc=(J)Z], indexes=[29], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator] killed by test (com.google.common.math.LongMath_ESTest),test30)
+Evaluating mutant -949693324 using tests: [com.google.common.math.LongMath_ESTest, com.google.common.math.LongMath_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/CUT11
+
+Skipped scaffolding test com.google.common.math.LongMath_ESTest_scaffolding
+Failed test test30(com.google.common.math.LongMath_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=checkedMultiply, methodDesc=(JJ)J], indexes=[25], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator] killed by test (com.google.common.math.LongMath_ESTest),test30)
+Evaluating mutant -1781748196 using tests: [com.google.common.math.LongMath_ESTest, com.google.common.math.LongMath_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/CUT12
+
+Skipped scaffolding test com.google.common.math.LongMath_ESTest_scaffolding
+Failed test test30(com.google.common.math.LongMath_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=sqrt, methodDesc=(JLjava/math/RoundingMode;)J], indexes=[11], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] killed by test (com.google.common.math.LongMath_ESTest),test30)
+Evaluating mutant -1227071602 using tests: [com.google.common.math.LongMath_ESTest, com.google.common.math.LongMath_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/CUT13
+
+Skipped scaffolding test com.google.common.math.LongMath_ESTest_scaffolding
+Failed test test30(com.google.common.math.LongMath_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=pow, methodDesc=(JI)J], indexes=[12], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] killed by test (com.google.common.math.LongMath_ESTest),test30)
+Evaluating mutant -1515081501 using tests: [com.google.common.math.LongMath_ESTest, com.google.common.math.LongMath_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/CUT14
+
+Skipped scaffolding test com.google.common.math.LongMath_ESTest_scaffolding
+Failed test test30(com.google.common.math.LongMath_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=saturatedAdd, methodDesc=(JJ)J], indexes=[14], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] killed by test (com.google.common.math.LongMath_ESTest),test30)
+Evaluating mutant 1081054973 using tests: [com.google.common.math.LongMath_ESTest, com.google.common.math.LongMath_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/CUT15
+
+Skipped scaffolding test com.google.common.math.LongMath_ESTest_scaffolding
+Failed test test30(com.google.common.math.LongMath_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=mean, methodDesc=(JJ)J], indexes=[8], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator] killed by test (com.google.common.math.LongMath_ESTest),test30)
+Evaluating mutant 1553579402 using tests: [com.google.common.math.LongMath_ESTest, com.google.common.math.LongMath_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/CUT16
+
+Skipped scaffolding test com.google.common.math.LongMath_ESTest_scaffolding
+Failed test test30(com.google.common.math.LongMath_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=checkedPow, methodDesc=(JI)J], indexes=[23], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator] killed by test (com.google.common.math.LongMath_ESTest),test30)
+Evaluating mutant 889990175 using tests: [com.google.common.math.LongMath_ESTest, com.google.common.math.LongMath_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/CUT17
+
+Skipped scaffolding test com.google.common.math.LongMath_ESTest_scaffolding
+Failed test test30(com.google.common.math.LongMath_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=isPrime, methodDesc=(J)Z], indexes=[43], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] killed by test (com.google.common.math.LongMath_ESTest),test30)
+Evaluating mutant 88112213 using tests: [com.google.common.math.LongMath_ESTest, com.google.common.math.LongMath_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/CUT18
+
+Skipped scaffolding test com.google.common.math.LongMath_ESTest_scaffolding
+Failed test test30(com.google.common.math.LongMath_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=isPrime, methodDesc=(J)Z], indexes=[58], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator] killed by test (com.google.common.math.LongMath_ESTest),test30)
+Evaluating mutant 1476202026 using tests: [com.google.common.math.LongMath_ESTest, com.google.common.math.LongMath_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/CUT19
+
+Skipped scaffolding test com.google.common.math.LongMath_ESTest_scaffolding
+Failed test test30(com.google.common.math.LongMath_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=saturatedAdd, methodDesc=(JJ)J], indexes=[40], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator] killed by test (com.google.common.math.LongMath_ESTest),test30)
+Evaluating mutant 889978643 using tests: [com.google.common.math.LongMath_ESTest, com.google.common.math.LongMath_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/CUT20
+
+Skipped scaffolding test com.google.common.math.LongMath_ESTest_scaffolding
+Failed test test30(com.google.common.math.LongMath_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=isPrime, methodDesc=(J)Z], indexes=[31], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] killed by test (com.google.common.math.LongMath_ESTest),test30)
+Evaluating mutant -949682753 using tests: [com.google.common.math.LongMath_ESTest, com.google.common.math.LongMath_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/CUT21
+
+Skipped scaffolding test com.google.common.math.LongMath_ESTest_scaffolding
+Failed test test30(com.google.common.math.LongMath_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=checkedMultiply, methodDesc=(JJ)J], indexes=[36], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator] killed by test (com.google.common.math.LongMath_ESTest),test30)
+Evaluating mutant 1332591985 using tests: [com.google.common.math.LongMath_ESTest, com.google.common.math.LongMath_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/CUT22
+
+Skipped scaffolding test com.google.common.math.LongMath_ESTest_scaffolding
+Failed test test30(com.google.common.math.LongMath_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=isPowerOfTwo, methodDesc=(J)Z], indexes=[17], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator] killed by test (com.google.common.math.LongMath_ESTest),test30)
+Evaluating mutant 1582972740 using tests: [com.google.common.math.LongMath_ESTest, com.google.common.math.LongMath_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/CUT23
+
+Skipped scaffolding test com.google.common.math.LongMath_ESTest_scaffolding
+Failed test test30(com.google.common.math.LongMath_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=saturatedSubtract, methodDesc=(JJ)J], indexes=[11], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator] killed by test (com.google.common.math.LongMath_ESTest),test30)
+Evaluating mutant 1462319561 using tests: [com.google.common.math.LongMath_ESTest, com.google.common.math.LongMath_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/CUT24
+
+Skipped scaffolding test com.google.common.math.LongMath_ESTest_scaffolding
+Failed test test30(com.google.common.math.LongMath_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=binomial, methodDesc=(II)J], indexes=[17], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] killed by test (com.google.common.math.LongMath_ESTest),test30)
+Evaluating mutant -2031716283 using tests: [com.google.common.math.LongMath_ESTest, com.google.common.math.LongMath_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/CUT25
+
+Skipped scaffolding test com.google.common.math.LongMath_ESTest_scaffolding
+Failed test test30(com.google.common.math.LongMath_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=mod, methodDesc=(JJ)J], indexes=[19], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator] killed by test (com.google.common.math.LongMath_ESTest),test30)
+Evaluating mutant 1977984769 using tests: [com.google.common.math.LongMath_ESTest, com.google.common.math.LongMath_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/CUT26
+
+Skipped scaffolding test com.google.common.math.LongMath_ESTest_scaffolding
+Failed test test30(com.google.common.math.LongMath_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=saturatedAdd, methodDesc=(JJ)J], indexes=[5], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator] killed by test (com.google.common.math.LongMath_ESTest),test30)
+Evaluating mutant -413744527 using tests: [com.google.common.math.LongMath_ESTest, com.google.common.math.LongMath_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/CUT27
+
+Skipped scaffolding test com.google.common.math.LongMath_ESTest_scaffolding
+Failed test test30(com.google.common.math.LongMath_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=isPrime, methodDesc=(J)Z], indexes=[16], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator] killed by test (com.google.common.math.LongMath_ESTest),test30)
+Evaluating mutant -2037590876 using tests: [com.google.common.math.LongMath_ESTest, com.google.common.math.LongMath_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/CUT28
+
+Skipped scaffolding test com.google.common.math.LongMath_ESTest_scaffolding
+Failed test test30(com.google.common.math.LongMath_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=gcd, methodDesc=(JJ)J], indexes=[44], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator] killed by test (com.google.common.math.LongMath_ESTest),test30)
+Evaluating mutant 897450263 using tests: [com.google.common.math.LongMath_ESTest, com.google.common.math.LongMath_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/CUT29
+
+Skipped scaffolding test com.google.common.math.LongMath_ESTest_scaffolding
+Failed test test30(com.google.common.math.LongMath_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=checkedSubtract, methodDesc=(JJ)J], indexes=[27], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator] killed by test (com.google.common.math.LongMath_ESTest),test30)
+Evaluating mutant -1993306981 using tests: [com.google.common.math.LongMath_ESTest, com.google.common.math.LongMath_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/CUT30
+
+Skipped scaffolding test com.google.common.math.LongMath_ESTest_scaffolding
+Failed test test30(com.google.common.math.LongMath_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=checkedAdd, methodDesc=(JJ)J], indexes=[43], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator] killed by test (com.google.common.math.LongMath_ESTest),test30)
+Evaluating mutant 158643480 using tests: [com.google.common.math.LongMath_ESTest, com.google.common.math.LongMath_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/CUT31
+
+Skipped scaffolding test com.google.common.math.LongMath_ESTest_scaffolding
+Failed test test30(com.google.common.math.LongMath_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=binomial, methodDesc=(II)J], indexes=[51], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator] killed by test (com.google.common.math.LongMath_ESTest),test30)
+Evaluating mutant -1528209253 using tests: [com.google.common.math.LongMath_ESTest, com.google.common.math.LongMath_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/CUT32
+
+Skipped scaffolding test com.google.common.math.LongMath_ESTest_scaffolding
+Failed test test30(com.google.common.math.LongMath_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=saturatedMultiply, methodDesc=(JJ)J], indexes=[18], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator] killed by test (com.google.common.math.LongMath_ESTest),test30)
+Evaluating mutant -2030007372 using tests: [com.google.common.math.LongMath_ESTest, com.google.common.math.LongMath_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/CUT33
+
+Skipped scaffolding test com.google.common.math.LongMath_ESTest_scaffolding
+Failed test test30(com.google.common.math.LongMath_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=saturatedMultiply, methodDesc=(JJ)J], indexes=[37], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator] killed by test (com.google.common.math.LongMath_ESTest),test30)
+Evaluating mutant -689626095 using tests: [com.google.common.math.LongMath_ESTest, com.google.common.math.LongMath_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/CUT34
+
+Skipped scaffolding test com.google.common.math.LongMath_ESTest_scaffolding
+Failed test test30(com.google.common.math.LongMath_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=checkedAdd, methodDesc=(JJ)J], indexes=[14], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] killed by test (com.google.common.math.LongMath_ESTest),test30)
+Evaluating mutant -2031702829 using tests: [com.google.common.math.LongMath_ESTest, com.google.common.math.LongMath_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/CUT35
+
+Skipped scaffolding test com.google.common.math.LongMath_ESTest_scaffolding
+Failed test test30(com.google.common.math.LongMath_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=mod, methodDesc=(JJ)J], indexes=[33], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator] killed by test (com.google.common.math.LongMath_ESTest),test30)
+Evaluating mutant -1491527121 using tests: [com.google.common.math.LongMath_ESTest, com.google.common.math.LongMath_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/CUT36
+
+Skipped scaffolding test com.google.common.math.LongMath_ESTest_scaffolding
+Failed test test30(com.google.common.math.LongMath_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=checkedAdd, methodDesc=(JJ)J], indexes=[5], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator] killed by test (com.google.common.math.LongMath_ESTest),test30)
+Evaluating mutant -603602573 using tests: [com.google.common.math.LongMath_ESTest, com.google.common.math.LongMath_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/CUT37
+
+Skipped scaffolding test com.google.common.math.LongMath_ESTest_scaffolding
+Failed test test30(com.google.common.math.LongMath_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=binomial, methodDesc=(II)J], indexes=[35], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator] killed by test (com.google.common.math.LongMath_ESTest),test30)
+Evaluating mutant -1638283345 using tests: [com.google.common.math.LongMath_ESTest, com.google.common.math.LongMath_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/CUT38
+
+Skipped scaffolding test com.google.common.math.LongMath_ESTest_scaffolding
+Failed test test30(com.google.common.math.LongMath_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=fitsInInt, methodDesc=(J)Z], indexes=[8], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] killed by test (com.google.common.math.LongMath_ESTest),test30)
+Evaluating mutant -413698399 using tests: [com.google.common.math.LongMath_ESTest, com.google.common.math.LongMath_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/CUT39
+
+Skipped scaffolding test com.google.common.math.LongMath_ESTest_scaffolding
+Failed test test30(com.google.common.math.LongMath_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=isPrime, methodDesc=(J)Z], indexes=[64], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator] killed by test (com.google.common.math.LongMath_ESTest),test30)
+Evaluating mutant 897437770 using tests: [com.google.common.math.LongMath_ESTest, com.google.common.math.LongMath_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/CUT40
+
+Skipped scaffolding test com.google.common.math.LongMath_ESTest_scaffolding
+Failed test test30(com.google.common.math.LongMath_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=checkedSubtract, methodDesc=(JJ)J], indexes=[14], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator] killed by test (com.google.common.math.LongMath_ESTest),test30)
+Evaluating mutant -1979126465 using tests: [com.google.common.math.LongMath_ESTest, com.google.common.math.LongMath_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/CUT41
+
+Skipped scaffolding test com.google.common.math.LongMath_ESTest_scaffolding
+Failed test test30(com.google.common.math.LongMath_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=checkedPow, methodDesc=(JI)J], indexes=[55], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator] killed by test (com.google.common.math.LongMath_ESTest),test30)
+Evaluating mutant 1755538900 using tests: [com.google.common.math.LongMath_ESTest, com.google.common.math.LongMath_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/CUT42
+
+Skipped scaffolding test com.google.common.math.LongMath_ESTest_scaffolding
+Failed test test30(com.google.common.math.LongMath_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=gcd, methodDesc=(JJ)J], indexes=[22], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator] killed by test (com.google.common.math.LongMath_ESTest),test30)
+Evaluating mutant 1454396487 using tests: [com.google.common.math.LongMath_ESTest, com.google.common.math.LongMath_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/CUT43
+
+Skipped scaffolding test com.google.common.math.LongMath_ESTest_scaffolding
+Failed test test30(com.google.common.math.LongMath_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=checkedSubtract, methodDesc=(JJ)J], indexes=[39], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] killed by test (com.google.common.math.LongMath_ESTest),test30)
+Evaluating mutant 728123996 using tests: [com.google.common.math.LongMath_ESTest, com.google.common.math.LongMath_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/CUT44
+
+Skipped scaffolding test com.google.common.math.LongMath_ESTest_scaffolding
+Failed test test30(com.google.common.math.LongMath_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=saturatedPow, methodDesc=(JI)J], indexes=[23], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator] killed by test (com.google.common.math.LongMath_ESTest),test30)
+Evaluating mutant -689613602 using tests: [com.google.common.math.LongMath_ESTest, com.google.common.math.LongMath_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/CUT45
+
+Skipped scaffolding test com.google.common.math.LongMath_ESTest_scaffolding
+Failed test test30(com.google.common.math.LongMath_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=checkedAdd, methodDesc=(JJ)J], indexes=[27], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] killed by test (com.google.common.math.LongMath_ESTest),test30)
+Evaluating mutant 1761394242 using tests: [com.google.common.math.LongMath_ESTest, com.google.common.math.LongMath_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-169_1/temp/testcases/mutated_code/CUT46
+
+Skipped scaffolding test com.google.common.math.LongMath_ESTest_scaffolding
+Failed test test30(com.google.common.math.LongMath_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=mod, methodDesc=(JI)I], indexes=[8], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator] killed by test (com.google.common.math.LongMath_ESTest),test30)
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=pow, methodDesc=(JI)J], indexes=[26], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=LongMath.java, block=23, lineNumber=273, description=negated conditional, testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=saturatedAdd, methodDesc=(JJ)J], indexes=[27], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=LongMath.java, block=152, lineNumber=652, description=negated conditional, testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=mean, methodDesc=(JJ)J], indexes=[12], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator], filename=LongMath.java, block=239, lineNumber=976, description=replaced return of long value with value + 1 for com/google/common/math/LongMath::mean, testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=factorial, methodDesc=(I)J], indexes=[12], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=LongMath.java, block=210, lineNumber=775, description=negated conditional, testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=saturatedSubtract, methodDesc=(JJ)J], indexes=[35], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator], filename=LongMath.java, block=161, lineNumber=670, description=Replaced bitwise OR with AND, testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=checkedPow, methodDesc=(JI)J], indexes=[32], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=LongMath.java, block=125, lineNumber=604, description=negated conditional, testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=saturatedPow, methodDesc=(JI)J], indexes=[32], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=LongMath.java, block=182, lineNumber=718, description=negated conditional, testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=saturatedMultiply, methodDesc=(JJ)J], indexes=[31], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator], filename=LongMath.java, block=164, lineNumber=693, description=changed conditional boundary, testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=saturatedSubtract, methodDesc=(JJ)J], indexes=[24], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator], filename=LongMath.java, block=159, lineNumber=670, description=Replaced XOR with AND, testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=checkedMultiply, methodDesc=(JJ)J], indexes=[13], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator], filename=LongMath.java, block=109, lineNumber=572, description=Replaced integer addition with subtraction, testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=isPowerOfTwo, methodDesc=(J)Z], indexes=[29], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator], filename=LongMath.java, block=8, lineNumber=97, description=Replaced bitwise AND with OR, testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=checkedMultiply, methodDesc=(JJ)J], indexes=[25], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator], filename=LongMath.java, block=109, lineNumber=574, description=Replaced integer addition with subtraction, testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=sqrt, methodDesc=(JLjava/math/RoundingMode;)J], indexes=[11], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=LongMath.java, block=44, lineNumber=314, description=negated conditional, testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=pow, methodDesc=(JI)J], indexes=[12], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=LongMath.java, block=21, lineNumber=270, description=negated conditional, testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=saturatedAdd, methodDesc=(JJ)J], indexes=[14], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=LongMath.java, block=150, lineNumber=652, description=negated conditional, testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=mean, methodDesc=(JJ)J], indexes=[8], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator], filename=LongMath.java, block=239, lineNumber=976, description=Replaced XOR with AND, testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=checkedPow, methodDesc=(JI)J], indexes=[23], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator], filename=LongMath.java, block=123, lineNumber=604, description=changed conditional boundary, testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=isPrime, methodDesc=(J)Z], indexes=[43], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=LongMath.java, block=247, lineNumber=1007, description=negated conditional, testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=isPrime, methodDesc=(J)Z], indexes=[58], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator], filename=LongMath.java, block=249, lineNumber=1011, description=Replaced Shift Left with Shift Right, testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=saturatedAdd, methodDesc=(JJ)J], indexes=[40], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator], filename=LongMath.java, block=155, lineNumber=655, description=replaced return of long value with value + 1 for com/google/common/math/LongMath::saturatedAdd, testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=isPrime, methodDesc=(J)Z], indexes=[31], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=LongMath.java, block=244, lineNumber=1007, description=negated conditional, testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=checkedMultiply, methodDesc=(JJ)J], indexes=[36], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator], filename=LongMath.java, block=110, lineNumber=586, description=Replaced long multiplication with division, testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=isPowerOfTwo, methodDesc=(J)Z], indexes=[17], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator], filename=LongMath.java, block=6, lineNumber=97, description=Replaced long subtraction with addition, testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=saturatedSubtract, methodDesc=(JJ)J], indexes=[11], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator], filename=LongMath.java, block=157, lineNumber=670, description=Replaced XOR with AND, testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=binomial, methodDesc=(II)J], indexes=[17], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=LongMath.java, block=213, lineNumber=811, description=negated conditional, testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=mod, methodDesc=(JJ)J], indexes=[19], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator], filename=LongMath.java, block=89, lineNumber=484, description=Replaced long modulus with multiplication, testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=saturatedAdd, methodDesc=(JJ)J], indexes=[5], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator], filename=LongMath.java, block=150, lineNumber=651, description=Replaced long addition with subtraction, testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=isPrime, methodDesc=(J)Z], indexes=[16], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator], filename=LongMath.java, block=241, lineNumber=1005, description=replaced return of integer sized value with (x == 0 ? 1 : 0), testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=gcd, methodDesc=(JJ)J], indexes=[44], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator], filename=LongMath.java, block=96, lineNumber=514, description=Replaced Shift Right with Shift Left, testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=checkedSubtract, methodDesc=(JJ)J], indexes=[27], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator], filename=LongMath.java, block=106, lineNumber=559, description=changed conditional boundary, testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=checkedAdd, methodDesc=(JJ)J], indexes=[43], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator], filename=LongMath.java, block=103, lineNumber=548, description=replaced return of long value with value + 1 for com/google/common/math/LongMath::checkedAdd, testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=binomial, methodDesc=(II)J], indexes=[51], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator], filename=LongMath.java, block=216, lineNumber=817, description=replaced return of long value with value + 1 for com/google/common/math/LongMath::binomial, testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=saturatedMultiply, methodDesc=(JJ)J], indexes=[18], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator], filename=LongMath.java, block=164, lineNumber=691, description=Replaced integer addition with subtraction, testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=saturatedMultiply, methodDesc=(JJ)J], indexes=[37], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator], filename=LongMath.java, block=165, lineNumber=694, description=replaced return of long value with value + 1 for com/google/common/math/LongMath::saturatedMultiply, testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=checkedAdd, methodDesc=(JJ)J], indexes=[14], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=LongMath.java, block=99, lineNumber=547, description=negated conditional, testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=mod, methodDesc=(JJ)J], indexes=[33], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator], filename=LongMath.java, block=91, lineNumber=485, description=Replaced long addition with subtraction, testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=checkedAdd, methodDesc=(JJ)J], indexes=[5], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator], filename=LongMath.java, block=99, lineNumber=546, description=Replaced long addition with subtraction, testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=binomial, methodDesc=(II)J], indexes=[35], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator], filename=LongMath.java, block=215, lineNumber=812, description=changed conditional boundary, testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=fitsInInt, methodDesc=(J)Z], indexes=[8], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=LongMath.java, block=236, lineNumber=963, description=negated conditional, testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=isPrime, methodDesc=(J)Z], indexes=[64], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator], filename=LongMath.java, block=250, lineNumber=1012, description=replaced return of integer sized value with (x == 0 ? 1 : 0), testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=checkedSubtract, methodDesc=(JJ)J], indexes=[14], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator], filename=LongMath.java, block=104, lineNumber=559, description=changed conditional boundary, testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=checkedPow, methodDesc=(JI)J], indexes=[55], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator], filename=LongMath.java, block=129, lineNumber=609, description=replaced return of long value with value + 1 for com/google/common/math/LongMath::checkedPow, testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=gcd, methodDesc=(JJ)J], indexes=[22], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator], filename=LongMath.java, block=93, lineNumber=505, description=replaced return of long value with value + 1 for com/google/common/math/LongMath::gcd, testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=checkedSubtract, methodDesc=(JJ)J], indexes=[39], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator], filename=LongMath.java, block=108, lineNumber=559, description=removed call to com/google/common/math/MathPreconditions::checkNoOverflow, testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=saturatedPow, methodDesc=(JI)J], indexes=[23], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator], filename=LongMath.java, block=180, lineNumber=718, description=changed conditional boundary, testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=checkedAdd, methodDesc=(JJ)J], indexes=[27], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=LongMath.java, block=101, lineNumber=547, description=negated conditional, testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.math.LongMath, method=mod, methodDesc=(JI)I], indexes=[8], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator], filename=LongMath.java, block=86, lineNumber=458, description=replaced return of integer sized value with (x == 0 ? 1 : 0), testsInOrder=[]]
+
+>>> RESULTS:
+	Tool name: evosuiteDSE
+	Benchmark: GUAVA-169
+	Class Under Test: com.google.common.math.LongMath
+	Run number: 1
+	Tool preparation time (ms): 206
+	Tool test cases generation time (ms): 25642
+	Test cases execution time (ms): 1157
+	Test case number: 38
+	Uncompilable Test Classes: 0
+	Broken tests number: 0
+	Failing tests number: 0
+	Lines total: 265
+	Lines covered: 90
+	Lines coverage ratio (%): 33.962265
+	Conditions total: 270
+	Conditions covered: 70
+	Conditions coverage ratio (%): 25.925926
+	Mutants total: 142
+	Mutants covered: 47
+	Mutants coverage ratio (%): 33.09859
+	Mutants killed: 47
+	Mutants killed ratio (%): 33.09859
+	Mutants alive: 95
+
+
+Class com.google.common.math.LongMath ended.
+Stopping process...
+Tool subprocess is an instance of java.lang.UNIXProcess
+Tool subprocess Id is 21031
+Killing master process 21031
+Executing command kill -9 21031
+Execution of command kill -9 21031 finished.
+Process was destroyed

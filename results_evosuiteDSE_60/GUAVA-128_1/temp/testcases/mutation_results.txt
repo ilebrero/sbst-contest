@@ -1,0 +1,35 @@
+N. of generated mutants 41
+N. of covered mutants 12
+N. of killed mutants 12
+N. of ignored mutants 0
+
+
+ --- Tests killing mutants --- 
+ Mutant: 0	 ---> MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.base.Throwables, method=getStackTraceAsString, methodDesc=(Ljava/lang/Throwable;)Ljava/lang/String;], indexes=[19], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator], filename=Throwables.java, block=34, lineNumber=353, description=mutated return of Object value for com/google/common/base/Throwables::getStackTraceAsString to ( if (x != null) null else throw new RuntimeException ), testsInOrder=[]]
+Mutant: 1	 ---> MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.base.Throwables, method=getGetMethod, methodDesc=()Ljava/lang/reflect/Method;], indexes=[15], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator], filename=Throwables.java, block=49, lineNumber=500, description=mutated return of Object value for com/google/common/base/Throwables::getGetMethod to ( if (x != null) null else throw new RuntimeException ), testsInOrder=[]]
+Mutant: 2	 ---> MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.base.Throwables, method=lazyStackTraceIsLazy, methodDesc=()Z], indexes=[14], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator], filename=Throwables.java, block=41, lineNumber=402, description=replaced return of integer sized value with (x == 0 ? 1 : 0), testsInOrder=[]]
+Mutant: 3	 ---> MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.base.Throwables, method=getSizeMethod, methodDesc=()Ljava/lang/reflect/Method;], indexes=[15], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=Throwables.java, block=50, lineNumber=516, description=negated conditional, testsInOrder=[]]
+Mutant: 4	 ---> MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.base.Throwables, method=lazyStackTraceIsLazy, methodDesc=()Z], indexes=[4], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=Throwables.java, block=38, lineNumber=402, description=negated conditional, testsInOrder=[]]
+Mutant: 5	 ---> MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.base.Throwables, method=lazyStackTrace, methodDesc=(Ljava/lang/Throwable;)Ljava/util/List;], indexes=[4], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=Throwables.java, block=35, lineNumber=388, description=negated conditional, testsInOrder=[]]
+Mutant: 6	 ---> MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.base.Throwables, method=getStackTraceAsString, methodDesc=(Ljava/lang/Throwable;)Ljava/lang/String;], indexes=[14], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator], filename=Throwables.java, block=34, lineNumber=352, description=removed call to java/lang/Throwable::printStackTrace, testsInOrder=[]]
+Mutant: 7	 ---> MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.base.Throwables, method=getJlaMethod, methodDesc=(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;], indexes=[11], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator], filename=Throwables.java, block=54, lineNumber=530, description=mutated return of Object value for com/google/common/base/Throwables::getJlaMethod to ( if (x != null) null else throw new RuntimeException ), testsInOrder=[]]
+Mutant: 8	 ---> MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.base.Throwables, method=getSizeMethod, methodDesc=()Ljava/lang/reflect/Method;], indexes=[40], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator], filename=Throwables.java, block=52, lineNumber=520, description=mutated return of Object value for com/google/common/base/Throwables::getSizeMethod to ( if (x != null) null else throw new RuntimeException ), testsInOrder=[]]
+Mutant: 9	 ---> MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.base.Throwables, method=lazyStackTraceIsLazy, methodDesc=()Z], indexes=[6], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=Throwables.java, block=39, lineNumber=402, description=negated conditional, testsInOrder=[]]
+Mutant: 10	 ---> MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.base.Throwables, method=lazyStackTrace, methodDesc=(Ljava/lang/Throwable;)Ljava/util/List;], indexes=[21], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator], filename=Throwables.java, block=37, lineNumber=388, description=mutated return of Object value for com/google/common/base/Throwables::lazyStackTrace to ( if (x != null) null else throw new RuntimeException ), testsInOrder=[]]
+Mutant: 11	 ---> MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.base.Throwables, method=getJLA, methodDesc=()Ljava/lang/Object;], indexes=[24], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator], filename=Throwables.java, block=46, lineNumber=482, description=mutated return of Object value for com/google/common/base/Throwables::getJLA to ( if (x != null) null else throw new RuntimeException ), testsInOrder=[]]
+
+
+ --- Mutants details--- 
+ Mutant: 0, killed by tests [(com.google.common.base.Throwables_ESTest),test2)]
+Mutant: 1, killed by tests [(com.google.common.base.Throwables_ESTest),test2)]
+Mutant: 2, killed by tests [(com.google.common.base.Throwables_ESTest),test2)]
+Mutant: 3, killed by tests [(com.google.common.base.Throwables_ESTest),test2)]
+Mutant: 4, killed by tests [(com.google.common.base.Throwables_ESTest),test2)]
+Mutant: 5, killed by tests [(com.google.common.base.Throwables_ESTest),test2)]
+Mutant: 6, killed by tests [(com.google.common.base.Throwables_ESTest),test2)]
+Mutant: 7, killed by tests [(com.google.common.base.Throwables_ESTest),test2)]
+Mutant: 8, killed by tests [(com.google.common.base.Throwables_ESTest),test2)]
+Mutant: 9, killed by tests [(com.google.common.base.Throwables_ESTest),test2)]
+Mutant: 10, killed by tests [(com.google.common.base.Throwables_ESTest),test2)]
+Mutant: 11, killed by tests [(com.google.common.base.Throwables_ESTest),test2)]
+

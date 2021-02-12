@@ -1,0 +1,3 @@
+[MASTER] 08:34:49.859 [logback-1] WARN  TestUsageChecker - class com.google.common.collect.LinkedListMultimap$1EntriesImpl looks like an anonymous class, ignoring it (although reflection says false) EntriesImpl
+[MASTER] 08:34:49.859 [logback-1] WARN  TestUsageChecker - class com.google.common.collect.LinkedListMultimap$1ValuesImpl looks like an anonymous class, ignoring it (although reflection says false) ValuesImpl
+[MASTER] 08:34:49.860 [logback-1] WARN  TestUsageChecker - class com.google.common.collect.LinkedListMultimap$1KeySetImpl looks like an anonymous class, ignoring it (although reflection says false) KeySetImpl

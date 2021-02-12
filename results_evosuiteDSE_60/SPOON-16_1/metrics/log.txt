@@ -1,0 +1,51 @@
+
+>>> TOOL NAME:  evosuiteDSE
+
+>>> BENCHMARK:  SPOON-16
+
+>>> RUN NUMBER: 1
+
+>>> MODE: --only-compute-metrics
+
+
+### COMPUTING METRICS ###: spoon.reflect.path.CtElementPathBuilder
+
+---Compilation---
+Compiling with scaffolding tests
+>>  /home/evosuite/results_evosuiteDSE_60/SPOON-16_1/temp/testcases/spoon/reflect/path/CtElementPathBuilder_ESTest_scaffolding.java /home/evosuite/results_evosuiteDSE_60/SPOON-16_1/temp/testcases/spoon/reflect/path/CtElementPathBuilder_ESTest.java
+Compiled 'spoon/reflect/path/CtElementPathBuilder_ESTest.java'
+Compiling with scaffolding tests
+
+---Timing Information---
+
+---The tests are re-executed other four times to find the flaky ones---
+
+=== Run Jacoco for Coverage ===
+
+=== Run PIT ===
+Executing Mutation Analysis using 33 mutants 
+
+>>> RESULTS:
+	Tool name: evosuiteDSE
+	Benchmark: SPOON-16
+	Class Under Test: spoon.reflect.path.CtElementPathBuilder
+	Run number: 1
+	Tool preparation time (ms): 207
+	Tool test cases generation time (ms): 7566
+	Test cases execution time (ms): 547
+	Test case number: 1
+	Uncompilable Test Classes: 0
+	Broken tests number: 0
+	Failing tests number: 0
+	Lines total: 87
+	Lines covered: 0
+	Lines coverage ratio (%): 0.0
+	Conditions total: 51
+	Conditions covered: 0
+	Conditions coverage ratio (%): 0.0
+	Mutants total: 33
+	Mutants covered: 0
+	Mutants coverage ratio (%): 0.0
+	Mutants killed: 0
+	Mutants killed ratio (%): 0.0
+	Mutants alive: 33

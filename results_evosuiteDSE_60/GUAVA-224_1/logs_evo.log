@@ -1,0 +1,42 @@
+* EvoSuite 1.1.1-SNAPSHOT
+* Going to generate test cases for class: com.google.common.primitives.UnsignedLongs
+* Starting Client-0
+* Connecting to master process on port 8905
+* Analyzing classpath: 
+  - /var/benchmarks/projects/guava/guava/target/classes
+  - /var/benchmarks/projects/guava/guava/target/guava-28.2-jre.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.common.primitives.UnsignedLongs
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up DSE test suite generation
+* Total number of test goals: 93
+* Using seed 1613119014595
+* Starting DSE
+* Using DSE algorithm: GENERATIONAL_SEARCH
+* With timeout: 35
+* With target coverage: 100
+* Symbolic arrays support enabled: true
+* Symbolic arrays implementation selected: LAZY_VARIABLES
+* Generating tests for entry method: compare
+* DSE test generation finished. Generated 1 test for method compare.
+* Generating tests for entry method: join
+* DSE test generation finished. Generated 20 test for method join.
+* Search finished after 37s, fitness: 84.2531746031746 and coverage: 0.1827956989247312
+* Minimizing test suite
+* Generated 4 tests with total length 15
+* Resulting test suite's coverage: 18%
+* Generating assertions
+* Compiling and checking tests
+* Writing tests to file
+* Writing JUnit test case 'UnsignedLongs_ESTest' to temp/testcases
+* Done!
+
+* Computation finished

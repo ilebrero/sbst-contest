@@ -1,0 +1,6 @@
+tool,benchmark,class,run,preparationTime,generationTime,executionTime,testcaseNumber,uncompilableNumber,brokenTests,failTests,linesTotal,linesCovered,linesCoverageRatio,conditionsTotal,conditionsCovered,conditionsCoverageRatio,mutantsTotal,mutantsCovered,mutantsCoverageRatio,mutantsKilled,mutantsKillRatio,mutantsAlive,timeBudget,totalTestClasses
+evosuiteDSE,SPOON-20,spoon.support.reflect.reference.CtLocalVariableReferenceImpl,1,207,8024,516,1,0,0,0,21,0,0.0,10,0,0.0,12,0,0.0,0,0.0,12,60,2
+ 
+ 
+ 
+

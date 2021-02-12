@@ -1,0 +1,18 @@
+
+>>> TOOL NAME:  evosuiteDSE
+
+>>> BENCHMARK:  FESCAR-42
+
+>>> RUN NUMBER: 1
+
+>>> MODE: --only-generate-tests
+
+
+### CLASS UNDER TEST ###: com.alibaba.fescar.core.rpc.DefaultServerMessageListenerImpl
+
+
+ Executing with internal budget of 60 sec and external budget of 120 sec 
+
+
+ Execution finished with no timeout
+>> >>/home/evosuite/./temp/testcases

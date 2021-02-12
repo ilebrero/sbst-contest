@@ -1,0 +1,6 @@
+tool,benchmark,class,run,preparationTime,generationTime,executionTime,testcaseNumber,uncompilableNumber,brokenTests,failTests,linesTotal,linesCovered,linesCoverageRatio,conditionsTotal,conditionsCovered,conditionsCoverageRatio,mutantsTotal,mutantsCovered,mutantsCoverageRatio,mutantsKilled,mutantsKillRatio,mutantsAlive,timeBudget,totalTestClasses
+evosuiteDSE,GUAVA-196,com.google.common.io.Closeables,1,203,4958,702,2,0,0,0,20,9,45.0,4,1,25.0,5,3,60.000004,1,20.0,4,60,2
+ 
+ 
+ 
+

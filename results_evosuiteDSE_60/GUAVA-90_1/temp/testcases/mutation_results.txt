@@ -1,0 +1,11 @@
+N. of generated mutants 30
+N. of covered mutants 0
+N. of killed mutants 0
+N. of ignored mutants 0
+
+
+ --- Tests killing mutants --- 
+ 
+
+ --- Mutants details--- 
+ 

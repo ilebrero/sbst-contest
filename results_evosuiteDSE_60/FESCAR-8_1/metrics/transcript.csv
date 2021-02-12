@@ -1,0 +1,6 @@
+tool,benchmark,class,run,preparationTime,generationTime,executionTime,testcaseNumber,uncompilableNumber,brokenTests,failTests,linesTotal,linesCovered,linesCoverageRatio,conditionsTotal,conditionsCovered,conditionsCoverageRatio,mutantsTotal,mutantsCovered,mutantsCoverageRatio,mutantsKilled,mutantsKillRatio,mutantsAlive,timeBudget,totalTestClasses
+evosuiteDSE,FESCAR-8,com.alibaba.fescar.core.rpc.netty.NettyPoolableFactory,1,207,4925,370,1,0,0,0,60,0,0.0,36,0,0.0,30,0,0.0,0,0.0,30,60,2
+ 
+ 
+ 
+

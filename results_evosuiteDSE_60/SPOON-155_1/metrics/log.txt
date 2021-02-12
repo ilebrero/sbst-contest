@@ -1,0 +1,51 @@
+
+>>> TOOL NAME:  evosuiteDSE
+
+>>> BENCHMARK:  SPOON-155
+
+>>> RUN NUMBER: 1
+
+>>> MODE: --only-compute-metrics
+
+
+### COMPUTING METRICS ###: spoon.reflect.visitor.filter.AllMethodsSameSignatureFunction
+
+---Compilation---
+Compiling with scaffolding tests
+>>  /home/evosuite/results_evosuiteDSE_60/SPOON-155_1/temp/testcases/spoon/reflect/visitor/filter/AllMethodsSameSignatureFunction_ESTest_scaffolding.java /home/evosuite/results_evosuiteDSE_60/SPOON-155_1/temp/testcases/spoon/reflect/visitor/filter/AllMethodsSameSignatureFunction_ESTest.java
+Compiled 'spoon/reflect/visitor/filter/AllMethodsSameSignatureFunction_ESTest.java'
+Compiling with scaffolding tests
+
+---Timing Information---
+
+---The tests are re-executed other four times to find the flaky ones---
+
+=== Run Jacoco for Coverage ===
+
+=== Run PIT ===
+Executing Mutation Analysis using 28 mutants 
+
+>>> RESULTS:
+	Tool name: evosuiteDSE
+	Benchmark: SPOON-155
+	Class Under Test: spoon.reflect.visitor.filter.AllMethodsSameSignatureFunction
+	Run number: 1
+	Tool preparation time (ms): 198
+	Tool test cases generation time (ms): 7908
+	Test cases execution time (ms): 541
+	Test case number: 1
+	Uncompilable Test Classes: 0
+	Broken tests number: 0
+	Failing tests number: 0
+	Lines total: 67
+	Lines covered: 0
+	Lines coverage ratio (%): 0.0
+	Conditions total: 32
+	Conditions covered: 0
+	Conditions coverage ratio (%): 0.0
+	Mutants total: 28
+	Mutants covered: 0
+	Mutants coverage ratio (%): 0.0
+	Mutants killed: 0
+	Mutants killed ratio (%): 0.0
+	Mutants alive: 28

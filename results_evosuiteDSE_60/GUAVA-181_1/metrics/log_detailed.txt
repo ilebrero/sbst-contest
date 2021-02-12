@@ -1,0 +1,250 @@
+
+>>> TOOL NAME:  evosuiteDSE
+
+>>> BENCHMARK:  GUAVA-181
+
+>>> RUN NUMBER: 1
+
+>>> MODE: --only-compute-metrics
+Creating directory ./temp
+Creating directory ./temp/data
+Creating directory ./temp/testcases
+Executing /home/evosuite/./runtool
+>> BENCHMARK
+>> /var/benchmarks/projects/guava/guava/src
+>> /var/benchmarks/projects/guava/guava/target/classes
+>> 1
+>> /var/benchmarks/projects/guava/guava/target/guava-28.2-jre.jar
+>> 0
+expecting CLASSPATH or READY
+<< CLASSPATH
+expecting number
+<< 1
+expecting directory or jar file
+<< /home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar
+<< READY
+>> 60
+
+
+### COMPUTING METRICS ###: com.google.common.primitives.SignedBytes
+
+
+Starting class com.google.common.primitives.SignedBytes
+
+
+Ending class com.google.common.primitives.SignedBytes
+Creating directory results_evosuiteDSE_60/GUAVA-181_1/temp/testcases/bin
+Creating dummy JUnit test file
+
+---Compilation---
+
+===
+javac command line:
+/usr/bin/javac -sourcepath /home/evosuite/results_evosuiteDSE_60/GUAVA-181_1/temp/testcases -cp /var/benchmarks/projects/guava/guava/target/guava-28.2-jre.jar:/usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar -d results_evosuiteDSE_60/GUAVA-181_1/temp/testcases/bin /home/evosuite/results_evosuiteDSE_60/GUAVA-181_1/temp/testcases/SBSTDummyForCoverageAndMutationCalculation.java
+
+Compiling with scaffolding tests
+>>  /home/evosuite/results_evosuiteDSE_60/GUAVA-181_1/temp/testcases/com/google/common/primitives/SignedBytes_ESTest_scaffolding.java /home/evosuite/results_evosuiteDSE_60/GUAVA-181_1/temp/testcases/com/google/common/primitives/SignedBytes_ESTest.java
+
+===
+javac command line:
+/usr/bin/javac -sourcepath /home/evosuite/results_evosuiteDSE_60/GUAVA-181_1/temp/testcases -cp /var/benchmarks/projects/guava/guava/target/guava-28.2-jre.jar:/usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar -d results_evosuiteDSE_60/GUAVA-181_1/temp/testcases/bin  /home/evosuite/results_evosuiteDSE_60/GUAVA-181_1/temp/testcases/com/google/common/primitives/SignedBytes_ESTest_scaffolding.java /home/evosuite/results_evosuiteDSE_60/GUAVA-181_1/temp/testcases/com/google/common/primitives/SignedBytes_ESTest.java
+
+Compiled 'com/google/common/primitives/SignedBytes_ESTest.java'
+Compiling with scaffolding tests
+
+---Timing Information---
+Running tests with the following classpath: 
+/var/benchmarks/projects/guava/guava/target/guava-28.2-jre.jar:/usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-181_1/temp/testcases/bin:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar
+Running the tests: [SBSTDummyForCoverageAndMutationCalculation, com.google.common.primitives.SignedBytes_ESTest]
+Executions terminated
+
+---The tests are re-executed other four times to find the flaky ones---
+Running the tests: [SBSTDummyForCoverageAndMutationCalculation, com.google.common.primitives.SignedBytes_ESTest]
+Executions terminated
+Running the tests: [SBSTDummyForCoverageAndMutationCalculation, com.google.common.primitives.SignedBytes_ESTest]
+Executions terminated
+Running the tests: [SBSTDummyForCoverageAndMutationCalculation, com.google.common.primitives.SignedBytes_ESTest]
+Executions terminated
+Running the tests: [SBSTDummyForCoverageAndMutationCalculation, com.google.common.primitives.SignedBytes_ESTest]
+Executions terminated
+
+=== Run Jacoco for Coverage ===
+Number of instrumented file = 1968
+Running tests with the following classpath: 
+/home/evosuite/results_evosuiteDSE_60/GUAVA-181_1/temp/testcases/guava-28.2-jre_instrumented.jar:/usr/local/bin/lib/hamcrest-core.jar:/usr/local/bin/lib/junit.jar:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-181_1/temp/testcases/bin
+Running the tests: [SBSTDummyForCoverageAndMutationCalculation, com.google.common.primitives.SignedBytes_ESTest]
+Executions terminated
+Number of file with coverage information = 1968
+Extracted coverage data for the class com/google/common/primitives/SignedBytes
+
+=== Run PIT ===
+Matching Jacoco with PIT: find covered mutations
+Executing Mutation Analysis using 42 mutants 
+Could not make a copy of the SUT /var/benchmarks/projects/guava/guava/target/guava-28.2-jre.jar
+java.io.IOException: Source '/var/benchmarks/projects/guava/guava/target/guava-28.2-jre.jar' exists but is not a directory
+	at shaded.org.apache.commons.io.FileUtils.copyDirectory(FileUtils.java:1371)
+	at shaded.org.apache.commons.io.FileUtils.copyDirectory(FileUtils.java:1261)
+	at shaded.org.apache.commons.io.FileUtils.copyDirectory(FileUtils.java:1230)
+	at sbst.benchmark.pitest.MutationsEvaluator.createSUTCopy(MutationsEvaluator.java:288)
+	at sbst.benchmark.pitest.MutationsEvaluator.runMutations(MutationsEvaluator.java:104)
+	at sbst.benchmark.TestSuite.mutationAnalysis(TestSuite.java:508)
+	at sbst.benchmark.TestSuite.<init>(TestSuite.java:73)
+	at sbst.benchmark.TranscriptWriter.endClass(TranscriptWriter.java:136)
+	at sbst.benchmark.RunTool.execute(RunTool.java:141)
+	at sbst.benchmark.RunTool.run(RunTool.java:62)
+	at sbst.benchmark.Main.main(Main.java:160)
+Evaluating mutant -1573434025 using tests: [com.google.common.primitives.SignedBytes_ESTest, com.google.common.primitives.SignedBytes_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-181_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-181_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-181_1/temp/testcases/mutated_code/CUT0
+
+Skipped scaffolding test com.google.common.primitives.SignedBytes_ESTest_scaffolding
+Failed test test0(com.google.common.primitives.SignedBytes_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.primitives.SignedBytes, method=checkedCast, methodDesc=(J)B], indexes=[23], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] killed by test (com.google.common.primitives.SignedBytes_ESTest),test0)
+Evaluating mutant -1616275846 using tests: [com.google.common.primitives.SignedBytes_ESTest, com.google.common.primitives.SignedBytes_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-181_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-181_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-181_1/temp/testcases/mutated_code/CUT1
+
+Skipped scaffolding test com.google.common.primitives.SignedBytes_ESTest_scaffolding
+Failed test test0(com.google.common.primitives.SignedBytes_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.primitives.SignedBytes, method=max, methodDesc=([B)B], indexes=[5], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] killed by test (com.google.common.primitives.SignedBytes_ESTest),test0)
+Evaluating mutant 1375027862 using tests: [com.google.common.primitives.SignedBytes_ESTest, com.google.common.primitives.SignedBytes_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-181_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-181_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-181_1/temp/testcases/mutated_code/CUT2
+
+Skipped scaffolding test com.google.common.primitives.SignedBytes_ESTest_scaffolding
+Failed test test0(com.google.common.primitives.SignedBytes_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.primitives.SignedBytes, method=max, methodDesc=([B)B], indexes=[52], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator] killed by test (com.google.common.primitives.SignedBytes_ESTest),test0)
+Evaluating mutant -1616246055 using tests: [com.google.common.primitives.SignedBytes_ESTest, com.google.common.primitives.SignedBytes_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-181_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-181_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-181_1/temp/testcases/mutated_code/CUT3
+
+Skipped scaffolding test com.google.common.primitives.SignedBytes_ESTest_scaffolding
+Failed test test0(com.google.common.primitives.SignedBytes_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.primitives.SignedBytes, method=max, methodDesc=([B)B], indexes=[36], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] killed by test (com.google.common.primitives.SignedBytes_ESTest),test0)
+Evaluating mutant 1809675694 using tests: [com.google.common.primitives.SignedBytes_ESTest, com.google.common.primitives.SignedBytes_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-181_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-181_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-181_1/temp/testcases/mutated_code/CUT4
+
+Skipped scaffolding test com.google.common.primitives.SignedBytes_ESTest_scaffolding
+Failed test test0(com.google.common.primitives.SignedBytes_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.primitives.SignedBytes, method=max, methodDesc=([B)B], indexes=[46], mutator=org.pitest.mutationtest.engine.gregor.mutators.IncrementsMutator] killed by test (com.google.common.primitives.SignedBytes_ESTest),test0)
+Evaluating mutant 1169694398 using tests: [com.google.common.primitives.SignedBytes_ESTest, com.google.common.primitives.SignedBytes_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-181_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-181_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-181_1/temp/testcases/mutated_code/CUT5
+
+Skipped scaffolding test com.google.common.primitives.SignedBytes_ESTest_scaffolding
+Failed test test2(com.google.common.primitives.SignedBytes_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.primitives.SignedBytes, method=max, methodDesc=([B)B], indexes=[13], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] killed by test (com.google.common.primitives.SignedBytes_ESTest),test2)
+Evaluating mutant 612752018 using tests: [com.google.common.primitives.SignedBytes_ESTest, com.google.common.primitives.SignedBytes_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-181_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-181_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-181_1/temp/testcases/mutated_code/CUT6
+
+Skipped scaffolding test com.google.common.primitives.SignedBytes_ESTest_scaffolding
+Failed test test0(com.google.common.primitives.SignedBytes_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.primitives.SignedBytes, method=max, methodDesc=([B)B], indexes=[5], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator] killed by test (com.google.common.primitives.SignedBytes_ESTest),test0)
+Evaluating mutant 612781809 using tests: [com.google.common.primitives.SignedBytes_ESTest, com.google.common.primitives.SignedBytes_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-181_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-181_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-181_1/temp/testcases/mutated_code/CUT7
+
+Skipped scaffolding test com.google.common.primitives.SignedBytes_ESTest_scaffolding
+Failed test test0(com.google.common.primitives.SignedBytes_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.primitives.SignedBytes, method=max, methodDesc=([B)B], indexes=[36], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator] killed by test (com.google.common.primitives.SignedBytes_ESTest),test0)
+Evaluating mutant -64438895 using tests: [com.google.common.primitives.SignedBytes_ESTest, com.google.common.primitives.SignedBytes_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-181_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-181_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-181_1/temp/testcases/mutated_code/CUT8
+
+Skipped scaffolding test com.google.common.primitives.SignedBytes_ESTest_scaffolding
+Failed test test0(com.google.common.primitives.SignedBytes_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.primitives.SignedBytes, method=checkedCast, methodDesc=(J)B], indexes=[13], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] killed by test (com.google.common.primitives.SignedBytes_ESTest),test0)
+Evaluating mutant -1616252782 using tests: [com.google.common.primitives.SignedBytes_ESTest, com.google.common.primitives.SignedBytes_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-181_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-181_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-181_1/temp/testcases/mutated_code/CUT9
+
+Skipped scaffolding test com.google.common.primitives.SignedBytes_ESTest_scaffolding
+Failed test test0(com.google.common.primitives.SignedBytes_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.primitives.SignedBytes, method=max, methodDesc=([B)B], indexes=[29], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] killed by test (com.google.common.primitives.SignedBytes_ESTest),test0)
+Evaluating mutant 612775082 using tests: [com.google.common.primitives.SignedBytes_ESTest, com.google.common.primitives.SignedBytes_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-181_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-181_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-181_1/temp/testcases/mutated_code/CUT10
+
+Skipped scaffolding test com.google.common.primitives.SignedBytes_ESTest_scaffolding
+Failed test test0(com.google.common.primitives.SignedBytes_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.primitives.SignedBytes, method=max, methodDesc=([B)B], indexes=[29], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator] killed by test (com.google.common.primitives.SignedBytes_ESTest),test0)
+Evaluating mutant -1368134196 using tests: [com.google.common.primitives.SignedBytes_ESTest, com.google.common.primitives.SignedBytes_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-181_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-181_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-181_1/temp/testcases/mutated_code/CUT11
+
+Skipped scaffolding test com.google.common.primitives.SignedBytes_ESTest_scaffolding
+Failed test test0(com.google.common.primitives.SignedBytes_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.primitives.SignedBytes, method=checkedCast, methodDesc=(J)B], indexes=[27], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator] killed by test (com.google.common.primitives.SignedBytes_ESTest),test0)
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.primitives.SignedBytes, method=checkedCast, methodDesc=(J)B], indexes=[23], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator], filename=SignedBytes.java, block=3, lineNumber=59, description=removed call to com/google/common/base/Preconditions::checkArgument, testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.primitives.SignedBytes, method=max, methodDesc=([B)B], indexes=[5], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=SignedBytes.java, block=16, lineNumber=125, description=negated conditional, testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.primitives.SignedBytes, method=max, methodDesc=([B)B], indexes=[52], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator], filename=SignedBytes.java, block=21, lineNumber=132, description=replaced return of integer sized value with (x == 0 ? 1 : 0), testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.primitives.SignedBytes, method=max, methodDesc=([B)B], indexes=[36], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=SignedBytes.java, block=19, lineNumber=128, description=negated conditional, testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.primitives.SignedBytes, method=max, methodDesc=([B)B], indexes=[46], mutator=org.pitest.mutationtest.engine.gregor.mutators.IncrementsMutator], filename=SignedBytes.java, block=20, lineNumber=127, description=Changed increment from 1 to -1, testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.primitives.SignedBytes, method=max, methodDesc=([B)B], indexes=[13], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator], filename=SignedBytes.java, block=18, lineNumber=125, description=removed call to com/google/common/base/Preconditions::checkArgument, testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.primitives.SignedBytes, method=max, methodDesc=([B)B], indexes=[5], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator], filename=SignedBytes.java, block=16, lineNumber=125, description=changed conditional boundary, testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.primitives.SignedBytes, method=max, methodDesc=([B)B], indexes=[36], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator], filename=SignedBytes.java, block=19, lineNumber=128, description=changed conditional boundary, testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.primitives.SignedBytes, method=checkedCast, methodDesc=(J)B], indexes=[13], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=SignedBytes.java, block=1, lineNumber=59, description=negated conditional, testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.primitives.SignedBytes, method=max, methodDesc=([B)B], indexes=[29], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=SignedBytes.java, block=18, lineNumber=127, description=negated conditional, testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.primitives.SignedBytes, method=max, methodDesc=([B)B], indexes=[29], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator], filename=SignedBytes.java, block=18, lineNumber=127, description=changed conditional boundary, testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.primitives.SignedBytes, method=checkedCast, methodDesc=(J)B], indexes=[27], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator], filename=SignedBytes.java, block=3, lineNumber=60, description=replaced return of integer sized value with (x == 0 ? 1 : 0), testsInOrder=[]]
+
+>>> RESULTS:
+	Tool name: evosuiteDSE
+	Benchmark: GUAVA-181
+	Class Under Test: com.google.common.primitives.SignedBytes
+	Run number: 1
+	Tool preparation time (ms): 211
+	Tool test cases generation time (ms): 41940
+	Test cases execution time (ms): 798
+	Test case number: 4
+	Uncompilable Test Classes: 0
+	Broken tests number: 0
+	Failing tests number: 0
+	Lines total: 38
+	Lines covered: 9
+	Lines coverage ratio (%): 23.684212
+	Conditions total: 22
+	Conditions covered: 7
+	Conditions coverage ratio (%): 31.818182
+	Mutants total: 42
+	Mutants covered: 12
+	Mutants coverage ratio (%): 28.57143
+	Mutants killed: 12
+	Mutants killed ratio (%): 28.57143
+	Mutants alive: 30
+
+
+Class com.google.common.primitives.SignedBytes ended.
+Stopping process...
+Tool subprocess is an instance of java.lang.UNIXProcess
+Tool subprocess Id is 26497
+Killing master process 26497
+Executing command kill -9 26497
+Execution of command kill -9 26497 finished.
+Process was destroyed

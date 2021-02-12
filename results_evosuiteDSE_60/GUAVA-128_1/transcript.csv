@@ -1,0 +1,6 @@
+tool,benchmark,class,run,preparationTime,generationTime,executionTime,testcaseNumber,uncompilableNumber,brokenTests,failTests,linesTotal,linesCovered,linesCoverageRatio,conditionsTotal,conditionsCovered,conditionsCoverageRatio,mutantsTotal,mutantsCovered,mutantsCoverageRatio,mutantsKilled,mutantsKillRatio,mutantsAlive,timeBudget,totalTestClasses
+evosuiteDSE,GUAVA-128,com.google.common.base.Throwables,1,210,5774,795,3,0,0,0,92,19,20.652174,38,6,15.789473,41,12,29.268291,12,29.268291,29,60,2
+ 
+ 
+ 
+

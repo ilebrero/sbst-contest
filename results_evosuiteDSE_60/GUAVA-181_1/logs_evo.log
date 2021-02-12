@@ -1,0 +1,42 @@
+* EvoSuite 1.1.1-SNAPSHOT
+* Going to generate test cases for class: com.google.common.primitives.SignedBytes
+* Starting Client-0
+* Connecting to master process on port 8146
+* Analyzing classpath: 
+  - /var/benchmarks/projects/guava/guava/target/classes
+  - /var/benchmarks/projects/guava/guava/target/guava-28.2-jre.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.common.primitives.SignedBytes
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up DSE test suite generation
+* Total number of test goals: 32
+* Using seed 1613118948417
+* Starting DSE
+* Using DSE algorithm: GENERATIONAL_SEARCH
+* With timeout: 35
+* With target coverage: 100
+* Symbolic arrays support enabled: true
+* Symbolic arrays implementation selected: LAZY_VARIABLES
+* Generating tests for entry method: checkedCast
+* DSE test generation finished. Generated 1 test for method checkedCast.
+* Generating tests for entry method: max
+* DSE test generation finished. Generated 579 test for method max.
+* Search finished after 36s, fitness: 29.0 and coverage: 0.21875
+* Minimizing test suite
+* Generated 4 tests with total length 10
+* Resulting test suite's coverage: 22%
+* Generating assertions
+* Compiling and checking tests
+* Writing tests to file
+* Writing JUnit test case 'SignedBytes_ESTest' to temp/testcases
+* Done!
+
+* Computation finished

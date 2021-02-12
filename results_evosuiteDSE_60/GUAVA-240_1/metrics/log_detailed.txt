@@ -1,0 +1,130 @@
+
+>>> TOOL NAME:  evosuiteDSE
+
+>>> BENCHMARK:  GUAVA-240
+
+>>> RUN NUMBER: 1
+
+>>> MODE: --only-compute-metrics
+Creating directory ./temp
+Creating directory ./temp/data
+Creating directory ./temp/testcases
+Executing /home/evosuite/./runtool
+>> BENCHMARK
+>> /var/benchmarks/projects/guava/guava/src
+>> /var/benchmarks/projects/guava/guava/target/classes
+>> 1
+>> /var/benchmarks/projects/guava/guava/target/guava-28.2-jre.jar
+>> 0
+expecting CLASSPATH or READY
+<< CLASSPATH
+expecting number
+<< 1
+expecting directory or jar file
+<< /home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar
+<< READY
+>> 60
+
+
+### COMPUTING METRICS ###: com.google.common.collect.FilteredMultimapValues
+
+
+Starting class com.google.common.collect.FilteredMultimapValues
+
+
+Ending class com.google.common.collect.FilteredMultimapValues
+Creating directory results_evosuiteDSE_60/GUAVA-240_1/temp/testcases/bin
+Creating dummy JUnit test file
+
+---Compilation---
+
+===
+javac command line:
+/usr/bin/javac -sourcepath /home/evosuite/results_evosuiteDSE_60/GUAVA-240_1/temp/testcases -cp /var/benchmarks/projects/guava/guava/target/guava-28.2-jre.jar:/usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar -d results_evosuiteDSE_60/GUAVA-240_1/temp/testcases/bin /home/evosuite/results_evosuiteDSE_60/GUAVA-240_1/temp/testcases/SBSTDummyForCoverageAndMutationCalculation.java
+
+Compiling with scaffolding tests
+>>  /home/evosuite/results_evosuiteDSE_60/GUAVA-240_1/temp/testcases/com/google/common/collect/FilteredMultimapValues_ESTest_scaffolding.java /home/evosuite/results_evosuiteDSE_60/GUAVA-240_1/temp/testcases/com/google/common/collect/FilteredMultimapValues_ESTest.java
+
+===
+javac command line:
+/usr/bin/javac -sourcepath /home/evosuite/results_evosuiteDSE_60/GUAVA-240_1/temp/testcases -cp /var/benchmarks/projects/guava/guava/target/guava-28.2-jre.jar:/usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar -d results_evosuiteDSE_60/GUAVA-240_1/temp/testcases/bin  /home/evosuite/results_evosuiteDSE_60/GUAVA-240_1/temp/testcases/com/google/common/collect/FilteredMultimapValues_ESTest_scaffolding.java /home/evosuite/results_evosuiteDSE_60/GUAVA-240_1/temp/testcases/com/google/common/collect/FilteredMultimapValues_ESTest.java
+
+Compiled 'com/google/common/collect/FilteredMultimapValues_ESTest.java'
+Compiling with scaffolding tests
+
+---Timing Information---
+Running tests with the following classpath: 
+/var/benchmarks/projects/guava/guava/target/guava-28.2-jre.jar:/usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-240_1/temp/testcases/bin:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar
+Running the tests: [SBSTDummyForCoverageAndMutationCalculation, com.google.common.collect.FilteredMultimapValues_ESTest]
+Executions terminated
+
+---The tests are re-executed other four times to find the flaky ones---
+Running the tests: [SBSTDummyForCoverageAndMutationCalculation, com.google.common.collect.FilteredMultimapValues_ESTest]
+Executions terminated
+Running the tests: [SBSTDummyForCoverageAndMutationCalculation, com.google.common.collect.FilteredMultimapValues_ESTest]
+Executions terminated
+Running the tests: [SBSTDummyForCoverageAndMutationCalculation, com.google.common.collect.FilteredMultimapValues_ESTest]
+Executions terminated
+Running the tests: [SBSTDummyForCoverageAndMutationCalculation, com.google.common.collect.FilteredMultimapValues_ESTest]
+Executions terminated
+
+=== Run Jacoco for Coverage ===
+Number of instrumented file = 1968
+Running tests with the following classpath: 
+/home/evosuite/results_evosuiteDSE_60/GUAVA-240_1/temp/testcases/guava-28.2-jre_instrumented.jar:/usr/local/bin/lib/hamcrest-core.jar:/usr/local/bin/lib/junit.jar:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-240_1/temp/testcases/bin
+Running the tests: [SBSTDummyForCoverageAndMutationCalculation, com.google.common.collect.FilteredMultimapValues_ESTest]
+Executions terminated
+Number of file with coverage information = 1968
+Extracted coverage data for the class com/google/common/collect/FilteredMultimapValues
+
+=== Run PIT ===
+Matching Jacoco with PIT: find covered mutations
+Executing Mutation Analysis using 12 mutants 
+Could not make a copy of the SUT /var/benchmarks/projects/guava/guava/target/guava-28.2-jre.jar
+java.io.IOException: Source '/var/benchmarks/projects/guava/guava/target/guava-28.2-jre.jar' exists but is not a directory
+	at shaded.org.apache.commons.io.FileUtils.copyDirectory(FileUtils.java:1371)
+	at shaded.org.apache.commons.io.FileUtils.copyDirectory(FileUtils.java:1261)
+	at shaded.org.apache.commons.io.FileUtils.copyDirectory(FileUtils.java:1230)
+	at sbst.benchmark.pitest.MutationsEvaluator.createSUTCopy(MutationsEvaluator.java:288)
+	at sbst.benchmark.pitest.MutationsEvaluator.runMutations(MutationsEvaluator.java:104)
+	at sbst.benchmark.TestSuite.mutationAnalysis(TestSuite.java:508)
+	at sbst.benchmark.TestSuite.<init>(TestSuite.java:73)
+	at sbst.benchmark.TranscriptWriter.endClass(TranscriptWriter.java:136)
+	at sbst.benchmark.RunTool.execute(RunTool.java:141)
+	at sbst.benchmark.RunTool.run(RunTool.java:62)
+	at sbst.benchmark.Main.main(Main.java:160)
+
+>>> RESULTS:
+	Tool name: evosuiteDSE
+	Benchmark: GUAVA-240
+	Class Under Test: com.google.common.collect.FilteredMultimapValues
+	Run number: 1
+	Tool preparation time (ms): 200
+	Tool test cases generation time (ms): 4539
+	Test cases execution time (ms): 296
+	Test case number: 1
+	Uncompilable Test Classes: 0
+	Broken tests number: 0
+	Failing tests number: 0
+	Lines total: 26
+	Lines covered: 0
+	Lines coverage ratio (%): 0.0
+	Conditions total: 6
+	Conditions covered: 0
+	Conditions coverage ratio (%): 0.0
+	Mutants total: 12
+	Mutants covered: 0
+	Mutants coverage ratio (%): 0.0
+	Mutants killed: 0
+	Mutants killed ratio (%): 0.0
+	Mutants alive: 12
+
+
+Class com.google.common.collect.FilteredMultimapValues ended.
+Stopping process...
+Tool subprocess is an instance of java.lang.UNIXProcess
+Tool subprocess Id is 22512
+Killing master process 22512
+Executing command kill -9 22512
+Execution of command kill -9 22512 finished.
+Process was destroyed

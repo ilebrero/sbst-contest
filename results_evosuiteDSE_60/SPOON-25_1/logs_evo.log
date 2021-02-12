@@ -1,0 +1,73 @@
+* EvoSuite 1.1.1-SNAPSHOT
+* Going to generate test cases for class: spoon.pattern.internal.ValueConvertorImpl
+* Starting Client-0
+* Connecting to master process on port 16351
+* Analyzing classpath: 
+  - /var/benchmarks/projects/spoon/target/classes
+  - /var/benchmarks/projects/spoon/target/spoon-core-7.2.0.jar
+  - /var/benchmarks/projects/spoon/target/dependency/org.eclipse.core.commands-3.9.200.jar
+  - /var/benchmarks/projects/spoon/target/dependency/org.eclipse.core.runtime-3.15.100.jar
+  - /var/benchmarks/projects/spoon/target/dependency/plexus-utils-3.0.24.jar
+  - /var/benchmarks/projects/spoon/target/dependency/junit-4.12.jar
+  - /var/benchmarks/projects/spoon/target/dependency/mockito-all-2.0.2-beta.jar
+  - /var/benchmarks/projects/spoon/target/dependency/jsap-2.1.jar
+  - /var/benchmarks/projects/spoon/target/dependency/guava-18.0.jar
+  - /var/benchmarks/projects/spoon/target/dependency/system-rules-1.9.0.jar
+  - /var/benchmarks/projects/spoon/target/dependency/org.eclipse.core.expressions-3.6.200.jar
+  - /var/benchmarks/projects/spoon/target/dependency/log4j-1.2.17.jar
+  - /var/benchmarks/projects/spoon/target/dependency/org.eclipse.osgi-3.13.200.jar
+  - /var/benchmarks/projects/spoon/target/dependency/jackson-annotations-2.9.0.jar
+  - /var/benchmarks/projects/spoon/target/dependency/org.eclipse.core.resources-3.13.200.jar
+  - /var/benchmarks/projects/spoon/target/dependency/plexus-component-annotations-1.7.1.jar
+  - /var/benchmarks/projects/spoon/target/dependency/org.eclipse.equinox.registry-3.8.200.jar
+  - /var/benchmarks/projects/spoon/target/dependency/org.eclipse.equinox.app-1.4.0.jar
+  - /var/benchmarks/projects/spoon/target/dependency/commons-io-2.5.jar
+  - /var/benchmarks/projects/spoon/target/dependency/maven-invoker-3.0.1.jar
+  - /var/benchmarks/projects/spoon/target/dependency/org.eclipse.core.contenttype-3.7.200.jar
+  - /var/benchmarks/projects/spoon/target/dependency/org.eclipse.core.filesystem-1.7.200.jar
+  - /var/benchmarks/projects/spoon/target/dependency/org.eclipse.core.jobs-3.10.200.jar
+  - /var/benchmarks/projects/spoon/target/dependency/hamcrest-core-1.3.jar
+  - /var/benchmarks/projects/spoon/target/dependency/org.eclipse.equinox.common-3.10.200.jar
+  - /var/benchmarks/projects/spoon/target/dependency/commons-compress-1.18.jar
+  - /var/benchmarks/projects/spoon/target/dependency/maven-shared-utils-3.2.1.jar
+  - /var/benchmarks/projects/spoon/target/dependency/org.eclipse.text-3.8.0.jar
+  - /var/benchmarks/projects/spoon/target/dependency/org.eclipse.jdt.core-3.15.0.jar
+  - /var/benchmarks/projects/spoon/target/dependency/querydsl-core-3.6.9.jar
+  - /var/benchmarks/projects/spoon/target/dependency/bridge-method-annotation-1.13.jar
+  - /var/benchmarks/projects/spoon/target/dependency/xz-1.8.jar
+  - /var/benchmarks/projects/spoon/target/dependency/org.eclipse.equinox.preferences-3.7.200.jar
+  - /var/benchmarks/projects/spoon/target/dependency/jackson-core-2.9.5.jar
+  - /var/benchmarks/projects/spoon/target/dependency/jackson-databind-2.9.5.jar
+  - /var/benchmarks/projects/spoon/target/dependency/commons-lang3-3.5.jar
+  - /var/benchmarks/projects/spoon/target/dependency/maven-model-3.5.0.jar
+* Finished analyzing classpath
+* Generating tests for class spoon.pattern.internal.ValueConvertorImpl
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up DSE test suite generation
+* Total number of test goals: 88
+* Using seed 1613119334472
+* Starting DSE
+* Using DSE algorithm: GENERATIONAL_SEARCH
+* With timeout: 35
+* With target coverage: 100
+* Symbolic arrays support enabled: true
+* Symbolic arrays implementation selected: LAZY_VARIABLES
+* Search finished after 0s, fitness: 0.0 and coverage: 0.0
+* Minimizing test suite
+* Generated 0 tests with total length 0
+* Resulting test suite's coverage: 0%
+* Generating assertions
+* Compiling and checking tests
+* Writing tests to file
+* Writing JUnit test case 'ValueConvertorImpl_ESTest' to temp/testcases
+* Done!
+
+* Computation finished

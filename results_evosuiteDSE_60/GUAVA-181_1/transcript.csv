@@ -1,0 +1,6 @@
+tool,benchmark,class,run,preparationTime,generationTime,executionTime,testcaseNumber,uncompilableNumber,brokenTests,failTests,linesTotal,linesCovered,linesCoverageRatio,conditionsTotal,conditionsCovered,conditionsCoverageRatio,mutantsTotal,mutantsCovered,mutantsCoverageRatio,mutantsKilled,mutantsKillRatio,mutantsAlive,timeBudget,totalTestClasses
+evosuiteDSE,GUAVA-181,com.google.common.primitives.SignedBytes,1,211,41940,798,4,0,0,0,38,9,23.684212,22,7,31.818182,42,12,28.57143,12,28.57143,30,60,2
+ 
+ 
+ 
+

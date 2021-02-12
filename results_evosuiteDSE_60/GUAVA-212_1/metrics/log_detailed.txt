@@ -1,0 +1,220 @@
+
+>>> TOOL NAME:  evosuiteDSE
+
+>>> BENCHMARK:  GUAVA-212
+
+>>> RUN NUMBER: 1
+
+>>> MODE: --only-compute-metrics
+Creating directory ./temp
+Creating directory ./temp/data
+Creating directory ./temp/testcases
+Executing /home/evosuite/./runtool
+>> BENCHMARK
+>> /var/benchmarks/projects/guava/guava/src
+>> /var/benchmarks/projects/guava/guava/target/classes
+>> 1
+>> /var/benchmarks/projects/guava/guava/target/guava-28.2-jre.jar
+>> 0
+expecting CLASSPATH or READY
+<< CLASSPATH
+expecting number
+<< 1
+expecting directory or jar file
+<< /home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar
+<< READY
+>> 60
+
+
+### COMPUTING METRICS ###: com.google.common.net.MediaType
+
+
+Starting class com.google.common.net.MediaType
+
+
+Ending class com.google.common.net.MediaType
+Creating directory results_evosuiteDSE_60/GUAVA-212_1/temp/testcases/bin
+Creating dummy JUnit test file
+
+---Compilation---
+
+===
+javac command line:
+/usr/bin/javac -sourcepath /home/evosuite/results_evosuiteDSE_60/GUAVA-212_1/temp/testcases -cp /var/benchmarks/projects/guava/guava/target/guava-28.2-jre.jar:/usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar -d results_evosuiteDSE_60/GUAVA-212_1/temp/testcases/bin /home/evosuite/results_evosuiteDSE_60/GUAVA-212_1/temp/testcases/SBSTDummyForCoverageAndMutationCalculation.java
+
+Compiling with scaffolding tests
+>>  /home/evosuite/results_evosuiteDSE_60/GUAVA-212_1/temp/testcases/com/google/common/net/MediaType_ESTest_scaffolding.java /home/evosuite/results_evosuiteDSE_60/GUAVA-212_1/temp/testcases/com/google/common/net/MediaType_ESTest.java
+
+===
+javac command line:
+/usr/bin/javac -sourcepath /home/evosuite/results_evosuiteDSE_60/GUAVA-212_1/temp/testcases -cp /var/benchmarks/projects/guava/guava/target/guava-28.2-jre.jar:/usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar -d results_evosuiteDSE_60/GUAVA-212_1/temp/testcases/bin  /home/evosuite/results_evosuiteDSE_60/GUAVA-212_1/temp/testcases/com/google/common/net/MediaType_ESTest_scaffolding.java /home/evosuite/results_evosuiteDSE_60/GUAVA-212_1/temp/testcases/com/google/common/net/MediaType_ESTest.java
+
+Compiled 'com/google/common/net/MediaType_ESTest.java'
+Compiling with scaffolding tests
+
+---Timing Information---
+Running tests with the following classpath: 
+/var/benchmarks/projects/guava/guava/target/guava-28.2-jre.jar:/usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-212_1/temp/testcases/bin:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar
+Running the tests: [SBSTDummyForCoverageAndMutationCalculation, com.google.common.net.MediaType_ESTest]
+Executions terminated
+
+---The tests are re-executed other four times to find the flaky ones---
+Running the tests: [SBSTDummyForCoverageAndMutationCalculation, com.google.common.net.MediaType_ESTest]
+Executions terminated
+Running the tests: [SBSTDummyForCoverageAndMutationCalculation, com.google.common.net.MediaType_ESTest]
+Executions terminated
+Running the tests: [SBSTDummyForCoverageAndMutationCalculation, com.google.common.net.MediaType_ESTest]
+Executions terminated
+Running the tests: [SBSTDummyForCoverageAndMutationCalculation, com.google.common.net.MediaType_ESTest]
+Executions terminated
+
+=== Run Jacoco for Coverage ===
+Number of instrumented file = 1968
+Running tests with the following classpath: 
+/home/evosuite/results_evosuiteDSE_60/GUAVA-212_1/temp/testcases/guava-28.2-jre_instrumented.jar:/usr/local/bin/lib/hamcrest-core.jar:/usr/local/bin/lib/junit.jar:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-212_1/temp/testcases/bin
+Running the tests: [SBSTDummyForCoverageAndMutationCalculation, com.google.common.net.MediaType_ESTest]
+Executions terminated
+Number of file with coverage information = 1968
+Extracted coverage data for the class com/google/common/net/MediaType
+
+=== Run PIT ===
+Matching Jacoco with PIT: find covered mutations
+Executing Mutation Analysis using 76 mutants 
+Could not make a copy of the SUT /var/benchmarks/projects/guava/guava/target/guava-28.2-jre.jar
+java.io.IOException: Source '/var/benchmarks/projects/guava/guava/target/guava-28.2-jre.jar' exists but is not a directory
+	at shaded.org.apache.commons.io.FileUtils.copyDirectory(FileUtils.java:1371)
+	at shaded.org.apache.commons.io.FileUtils.copyDirectory(FileUtils.java:1261)
+	at shaded.org.apache.commons.io.FileUtils.copyDirectory(FileUtils.java:1230)
+	at sbst.benchmark.pitest.MutationsEvaluator.createSUTCopy(MutationsEvaluator.java:288)
+	at sbst.benchmark.pitest.MutationsEvaluator.runMutations(MutationsEvaluator.java:104)
+	at sbst.benchmark.TestSuite.mutationAnalysis(TestSuite.java:508)
+	at sbst.benchmark.TestSuite.<init>(TestSuite.java:73)
+	at sbst.benchmark.TranscriptWriter.endClass(TranscriptWriter.java:136)
+	at sbst.benchmark.RunTool.execute(RunTool.java:141)
+	at sbst.benchmark.RunTool.run(RunTool.java:62)
+	at sbst.benchmark.Main.main(Main.java:160)
+Evaluating mutant 1853565259 using tests: [com.google.common.net.MediaType_ESTest, com.google.common.net.MediaType_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-212_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-212_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-212_1/temp/testcases/mutated_code/CUT0
+
+Skipped scaffolding test com.google.common.net.MediaType_ESTest_scaffolding
+Failed test test0(com.google.common.net.MediaType_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.net.MediaType, method=normalizeToken, methodDesc=(Ljava/lang/String;)Ljava/lang/String;], indexes=[19], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] killed by test (com.google.common.net.MediaType_ESTest),test0)
+Evaluating mutant 1770711368 using tests: [com.google.common.net.MediaType_ESTest, com.google.common.net.MediaType_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-212_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-212_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-212_1/temp/testcases/mutated_code/CUT1
+
+Skipped scaffolding test com.google.common.net.MediaType_ESTest_scaffolding
+Failed test test0(com.google.common.net.MediaType_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.net.MediaType, method=addKnownType, methodDesc=(Lcom/google/common/net/MediaType;)Lcom/google/common/net/MediaType;], indexes=[11], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator] killed by test (com.google.common.net.MediaType_ESTest),test0)
+Evaluating mutant 1853552766 using tests: [com.google.common.net.MediaType_ESTest, com.google.common.net.MediaType_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-212_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-212_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-212_1/temp/testcases/mutated_code/CUT2
+
+Skipped scaffolding test com.google.common.net.MediaType_ESTest_scaffolding
+Failed test test0(com.google.common.net.MediaType_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.net.MediaType, method=normalizeToken, methodDesc=(Ljava/lang/String;)Ljava/lang/String;], indexes=[6], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] killed by test (com.google.common.net.MediaType_ESTest),test0)
+Evaluating mutant -630698771 using tests: [com.google.common.net.MediaType_ESTest, com.google.common.net.MediaType_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-212_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-212_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-212_1/temp/testcases/mutated_code/CUT3
+
+Skipped scaffolding test com.google.common.net.MediaType_ESTest_scaffolding
+Failed test test0(com.google.common.net.MediaType_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.net.MediaType, method=hashCode, methodDesc=()I], indexes=[9], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] killed by test (com.google.common.net.MediaType_ESTest),test0)
+Evaluating mutant 1199692953 using tests: [com.google.common.net.MediaType_ESTest, com.google.common.net.MediaType_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-212_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-212_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-212_1/temp/testcases/mutated_code/CUT4
+
+Skipped scaffolding test com.google.common.net.MediaType_ESTest_scaffolding
+Failed test test0(com.google.common.net.MediaType_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.net.MediaType, method=createConstantUtf8, methodDesc=(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/MediaType;], indexes=[20], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator] killed by test (com.google.common.net.MediaType_ESTest),test0)
+Evaluating mutant -592746365 using tests: [com.google.common.net.MediaType_ESTest, com.google.common.net.MediaType_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-212_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-212_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-212_1/temp/testcases/mutated_code/CUT5
+
+Skipped scaffolding test com.google.common.net.MediaType_ESTest_scaffolding
+Failed test test0(com.google.common.net.MediaType_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.net.MediaType, method=parametersAsMap, methodDesc=()Ljava/util/Map;], indexes=[15], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator] killed by test (com.google.common.net.MediaType_ESTest),test0)
+Evaluating mutant -332366583 using tests: [com.google.common.net.MediaType_ESTest, com.google.common.net.MediaType_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-212_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-212_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-212_1/temp/testcases/mutated_code/CUT6
+
+Skipped scaffolding test com.google.common.net.MediaType_ESTest_scaffolding
+Failed test test0(com.google.common.net.MediaType_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.net.MediaType, method=createConstant, methodDesc=(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/MediaType;], indexes=[21], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator] killed by test (com.google.common.net.MediaType_ESTest),test0)
+Evaluating mutant -1934377735 using tests: [com.google.common.net.MediaType_ESTest, com.google.common.net.MediaType_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-212_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-212_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-212_1/temp/testcases/mutated_code/CUT7
+
+Skipped scaffolding test com.google.common.net.MediaType_ESTest_scaffolding
+Failed test test0(com.google.common.net.MediaType_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.net.MediaType, method=hashCode, methodDesc=()I], indexes=[40], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator] killed by test (com.google.common.net.MediaType_ESTest),test0)
+Evaluating mutant -932404985 using tests: [com.google.common.net.MediaType_ESTest, com.google.common.net.MediaType_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/GUAVA-212_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/GUAVA-212_1/temp/testcases/bin:results_evosuiteDSE_60/GUAVA-212_1/temp/testcases/mutated_code/CUT8
+
+Skipped scaffolding test com.google.common.net.MediaType_ESTest_scaffolding
+Failed test test0(com.google.common.net.MediaType_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.google.common.net.MediaType, method=normalizeToken, methodDesc=(Ljava/lang/String;)Ljava/lang/String;], indexes=[11], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] killed by test (com.google.common.net.MediaType_ESTest),test0)
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.net.MediaType, method=normalizeToken, methodDesc=(Ljava/lang/String;)Ljava/lang/String;], indexes=[19], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator], filename=MediaType.java, block=54, lineNumber=963, description=removed call to com/google/common/base/Preconditions::checkArgument, testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.net.MediaType, method=addKnownType, methodDesc=(Lcom/google/common/net/MediaType;)Lcom/google/common/net/MediaType;], indexes=[11], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator], filename=MediaType.java, block=2, lineNumber=124, description=mutated return of Object value for com/google/common/net/MediaType::addKnownType to ( if (x != null) null else throw new RuntimeException ), testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.net.MediaType, method=normalizeToken, methodDesc=(Ljava/lang/String;)Ljava/lang/String;], indexes=[6], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator], filename=MediaType.java, block=52, lineNumber=962, description=removed call to com/google/common/base/Preconditions::checkArgument, testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.net.MediaType, method=hashCode, methodDesc=()I], indexes=[9], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=MediaType.java, block=77, lineNumber=1083, description=negated conditional, testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.net.MediaType, method=createConstantUtf8, methodDesc=(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/MediaType;], indexes=[20], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator], filename=MediaType.java, block=1, lineNumber=119, description=mutated return of Object value for com/google/common/net/MediaType::createConstantUtf8 to ( if (x != null) null else throw new RuntimeException ), testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.net.MediaType, method=parametersAsMap, methodDesc=()Ljava/util/Map;], indexes=[15], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator], filename=MediaType.java, block=7, lineNumber=730, description=mutated return of Object value for com/google/common/net/MediaType::parametersAsMap to ( if (x != null) null else throw new RuntimeException ), testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.net.MediaType, method=createConstant, methodDesc=(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/MediaType;], indexes=[21], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator], filename=MediaType.java, block=0, lineNumber=113, description=mutated return of Object value for com/google/common/net/MediaType::createConstant to ( if (x != null) null else throw new RuntimeException ), testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.net.MediaType, method=hashCode, methodDesc=()I], indexes=[40], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator], filename=MediaType.java, block=78, lineNumber=1087, description=replaced return of integer sized value with (x == 0 ? 1 : 0), testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.net.MediaType, method=normalizeToken, methodDesc=(Ljava/lang/String;)Ljava/lang/String;], indexes=[11], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=MediaType.java, block=52, lineNumber=963, description=negated conditional, testsInOrder=[]]
+
+>>> RESULTS:
+	Tool name: evosuiteDSE
+	Benchmark: GUAVA-212
+	Class Under Test: com.google.common.net.MediaType
+	Run number: 1
+	Tool preparation time (ms): 210
+	Tool test cases generation time (ms): 8162
+	Test cases execution time (ms): 2125
+	Test case number: 2
+	Uncompilable Test Classes: 0
+	Broken tests number: 0
+	Failing tests number: 0
+	Lines total: 284
+	Lines covered: 166
+	Lines coverage ratio (%): 58.450706
+	Conditions total: 74
+	Conditions covered: 2
+	Conditions coverage ratio (%): 2.7027028
+	Mutants total: 76
+	Mutants covered: 9
+	Mutants coverage ratio (%): 11.842106
+	Mutants killed: 9
+	Mutants killed ratio (%): 11.842106
+	Mutants alive: 67
+
+
+Class com.google.common.net.MediaType ended.
+Stopping process...
+Tool subprocess is an instance of java.lang.UNIXProcess
+Tool subprocess Id is 24419
+Killing master process 24419
+Executing command kill -9 24419
+Execution of command kill -9 24419 finished.
+Process was destroyed

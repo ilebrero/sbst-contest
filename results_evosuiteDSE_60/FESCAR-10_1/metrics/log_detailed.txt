@@ -1,0 +1,217 @@
+
+>>> TOOL NAME:  evosuiteDSE
+
+>>> BENCHMARK:  FESCAR-10
+
+>>> RUN NUMBER: 1
+
+>>> MODE: --only-compute-metrics
+Creating directory ./temp
+Creating directory ./temp/data
+Creating directory ./temp/testcases
+Executing /home/evosuite/./runtool
+>> BENCHMARK
+>> /var/benchmarks/projects/fescar/core/src/main/java
+>> /var/benchmarks/projects/fescar/core/target/classes
+>> 21
+>> /var/benchmarks/projects/fescar/core/target/fescar-core-0.1.0-SNAPSHOT.jar
+>> /var/benchmarks/projects/fescar/core/target/dependency/config-1.2.1.jar
+>> /var/benchmarks/projects/fescar/core/target/dependency/slf4j-api-1.7.22.jar
+>> /var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar
+>> /var/benchmarks/projects/fescar/core/target/dependency/netty-transport-native-unix-common-4.1.24.Final.jar
+>> /var/benchmarks/projects/fescar/core/target/dependency/netty-resolver-4.1.24.Final.jar
+>> /var/benchmarks/projects/fescar/core/target/dependency/junit-4.12.jar
+>> /var/benchmarks/projects/fescar/core/target/dependency/commons-pool-1.6.jar
+>> /var/benchmarks/projects/fescar/core/target/dependency/netty-buffer-4.1.24.Final.jar
+>> /var/benchmarks/projects/fescar/core/target/dependency/netty-transport-native-epoll-4.1.24.Final-linux-x86_64.jar
+>> /var/benchmarks/projects/fescar/core/target/dependency/netty-all-4.1.24.Final.jar
+>> /var/benchmarks/projects/fescar/core/target/dependency/hamcrest-core-1.3.jar
+>> /var/benchmarks/projects/fescar/core/target/dependency/netty-transport-native-kqueue-4.1.24.Final-osx-x86_64.jar
+>> /var/benchmarks/projects/fescar/core/target/dependency/fescar-config-0.1.0-SNAPSHOT.jar
+>> /var/benchmarks/projects/fescar/core/target/dependency/logback-core-1.1.6.jar
+>> /var/benchmarks/projects/fescar/core/target/dependency/commons-lang-2.6.jar
+>> /var/benchmarks/projects/fescar/core/target/dependency/fescar-common-0.1.0-SNAPSHOT.jar
+>> /var/benchmarks/projects/fescar/core/target/dependency/fastjson-1.2.48.jar
+>> /var/benchmarks/projects/fescar/core/target/dependency/netty-common-4.1.24.Final.jar
+>> /var/benchmarks/projects/fescar/core/target/dependency/netty-transport-4.1.24.Final.jar
+>> /var/benchmarks/projects/fescar/core/target/dependency/commons-pool2-2.4.2.jar
+>> 0
+expecting CLASSPATH or READY
+<< CLASSPATH
+expecting number
+<< 1
+expecting directory or jar file
+<< /home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar
+<< READY
+>> 60
+
+
+### COMPUTING METRICS ###: com.alibaba.fescar.core.model.BranchType
+
+
+Starting class com.alibaba.fescar.core.model.BranchType
+
+
+Ending class com.alibaba.fescar.core.model.BranchType
+Creating directory results_evosuiteDSE_60/FESCAR-10_1/temp/testcases/bin
+Creating dummy JUnit test file
+
+---Compilation---
+
+===
+javac command line:
+/usr/bin/javac -sourcepath /home/evosuite/results_evosuiteDSE_60/FESCAR-10_1/temp/testcases -cp /var/benchmarks/projects/fescar/core/target/fescar-core-0.1.0-SNAPSHOT.jar:/var/benchmarks/projects/fescar/core/target/dependency/config-1.2.1.jar:/var/benchmarks/projects/fescar/core/target/dependency/slf4j-api-1.7.22.jar:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar:/var/benchmarks/projects/fescar/core/target/dependency/netty-transport-native-unix-common-4.1.24.Final.jar:/var/benchmarks/projects/fescar/core/target/dependency/netty-resolver-4.1.24.Final.jar:/var/benchmarks/projects/fescar/core/target/dependency/junit-4.12.jar:/var/benchmarks/projects/fescar/core/target/dependency/commons-pool-1.6.jar:/var/benchmarks/projects/fescar/core/target/dependency/netty-buffer-4.1.24.Final.jar:/var/benchmarks/projects/fescar/core/target/dependency/netty-transport-native-epoll-4.1.24.Final-linux-x86_64.jar:/var/benchmarks/projects/fescar/core/target/dependency/netty-all-4.1.24.Final.jar:/var/benchmarks/projects/fescar/core/target/dependency/hamcrest-core-1.3.jar:/var/benchmarks/projects/fescar/core/target/dependency/netty-transport-native-kqueue-4.1.24.Final-osx-x86_64.jar:/var/benchmarks/projects/fescar/core/target/dependency/fescar-config-0.1.0-SNAPSHOT.jar:/var/benchmarks/projects/fescar/core/target/dependency/logback-core-1.1.6.jar:/var/benchmarks/projects/fescar/core/target/dependency/commons-lang-2.6.jar:/var/benchmarks/projects/fescar/core/target/dependency/fescar-common-0.1.0-SNAPSHOT.jar:/var/benchmarks/projects/fescar/core/target/dependency/fastjson-1.2.48.jar:/var/benchmarks/projects/fescar/core/target/dependency/netty-common-4.1.24.Final.jar:/var/benchmarks/projects/fescar/core/target/dependency/netty-transport-4.1.24.Final.jar:/var/benchmarks/projects/fescar/core/target/dependency/commons-pool2-2.4.2.jar:/usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar -d results_evosuiteDSE_60/FESCAR-10_1/temp/testcases/bin /home/evosuite/results_evosuiteDSE_60/FESCAR-10_1/temp/testcases/SBSTDummyForCoverageAndMutationCalculation.java
+
+Compiling with scaffolding tests
+>>  /home/evosuite/results_evosuiteDSE_60/FESCAR-10_1/temp/testcases/com/alibaba/fescar/core/model/BranchType_ESTest_scaffolding.java /home/evosuite/results_evosuiteDSE_60/FESCAR-10_1/temp/testcases/com/alibaba/fescar/core/model/BranchType_ESTest.java
+
+===
+javac command line:
+/usr/bin/javac -sourcepath /home/evosuite/results_evosuiteDSE_60/FESCAR-10_1/temp/testcases -cp /var/benchmarks/projects/fescar/core/target/fescar-core-0.1.0-SNAPSHOT.jar:/var/benchmarks/projects/fescar/core/target/dependency/config-1.2.1.jar:/var/benchmarks/projects/fescar/core/target/dependency/slf4j-api-1.7.22.jar:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar:/var/benchmarks/projects/fescar/core/target/dependency/netty-transport-native-unix-common-4.1.24.Final.jar:/var/benchmarks/projects/fescar/core/target/dependency/netty-resolver-4.1.24.Final.jar:/var/benchmarks/projects/fescar/core/target/dependency/junit-4.12.jar:/var/benchmarks/projects/fescar/core/target/dependency/commons-pool-1.6.jar:/var/benchmarks/projects/fescar/core/target/dependency/netty-buffer-4.1.24.Final.jar:/var/benchmarks/projects/fescar/core/target/dependency/netty-transport-native-epoll-4.1.24.Final-linux-x86_64.jar:/var/benchmarks/projects/fescar/core/target/dependency/netty-all-4.1.24.Final.jar:/var/benchmarks/projects/fescar/core/target/dependency/hamcrest-core-1.3.jar:/var/benchmarks/projects/fescar/core/target/dependency/netty-transport-native-kqueue-4.1.24.Final-osx-x86_64.jar:/var/benchmarks/projects/fescar/core/target/dependency/fescar-config-0.1.0-SNAPSHOT.jar:/var/benchmarks/projects/fescar/core/target/dependency/logback-core-1.1.6.jar:/var/benchmarks/projects/fescar/core/target/dependency/commons-lang-2.6.jar:/var/benchmarks/projects/fescar/core/target/dependency/fescar-common-0.1.0-SNAPSHOT.jar:/var/benchmarks/projects/fescar/core/target/dependency/fastjson-1.2.48.jar:/var/benchmarks/projects/fescar/core/target/dependency/netty-common-4.1.24.Final.jar:/var/benchmarks/projects/fescar/core/target/dependency/netty-transport-4.1.24.Final.jar:/var/benchmarks/projects/fescar/core/target/dependency/commons-pool2-2.4.2.jar:/usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar -d results_evosuiteDSE_60/FESCAR-10_1/temp/testcases/bin  /home/evosuite/results_evosuiteDSE_60/FESCAR-10_1/temp/testcases/com/alibaba/fescar/core/model/BranchType_ESTest_scaffolding.java /home/evosuite/results_evosuiteDSE_60/FESCAR-10_1/temp/testcases/com/alibaba/fescar/core/model/BranchType_ESTest.java
+
+Compiled 'com/alibaba/fescar/core/model/BranchType_ESTest.java'
+Compiling with scaffolding tests
+
+---Timing Information---
+Running tests with the following classpath: 
+/var/benchmarks/projects/fescar/core/target/fescar-core-0.1.0-SNAPSHOT.jar:/var/benchmarks/projects/fescar/core/target/dependency/config-1.2.1.jar:/var/benchmarks/projects/fescar/core/target/dependency/slf4j-api-1.7.22.jar:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar:/var/benchmarks/projects/fescar/core/target/dependency/netty-transport-native-unix-common-4.1.24.Final.jar:/var/benchmarks/projects/fescar/core/target/dependency/netty-resolver-4.1.24.Final.jar:/var/benchmarks/projects/fescar/core/target/dependency/junit-4.12.jar:/var/benchmarks/projects/fescar/core/target/dependency/commons-pool-1.6.jar:/var/benchmarks/projects/fescar/core/target/dependency/netty-buffer-4.1.24.Final.jar:/var/benchmarks/projects/fescar/core/target/dependency/netty-transport-native-epoll-4.1.24.Final-linux-x86_64.jar:/var/benchmarks/projects/fescar/core/target/dependency/netty-all-4.1.24.Final.jar:/var/benchmarks/projects/fescar/core/target/dependency/hamcrest-core-1.3.jar:/var/benchmarks/projects/fescar/core/target/dependency/netty-transport-native-kqueue-4.1.24.Final-osx-x86_64.jar:/var/benchmarks/projects/fescar/core/target/dependency/fescar-config-0.1.0-SNAPSHOT.jar:/var/benchmarks/projects/fescar/core/target/dependency/logback-core-1.1.6.jar:/var/benchmarks/projects/fescar/core/target/dependency/commons-lang-2.6.jar:/var/benchmarks/projects/fescar/core/target/dependency/fescar-common-0.1.0-SNAPSHOT.jar:/var/benchmarks/projects/fescar/core/target/dependency/fastjson-1.2.48.jar:/var/benchmarks/projects/fescar/core/target/dependency/netty-common-4.1.24.Final.jar:/var/benchmarks/projects/fescar/core/target/dependency/netty-transport-4.1.24.Final.jar:/var/benchmarks/projects/fescar/core/target/dependency/commons-pool2-2.4.2.jar:/usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:/home/evosuite/results_evosuiteDSE_60/FESCAR-10_1/temp/testcases/bin:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar
+Running the tests: [SBSTDummyForCoverageAndMutationCalculation, com.alibaba.fescar.core.model.BranchType_ESTest]
+Executions terminated
+
+---The tests are re-executed other four times to find the flaky ones---
+Running the tests: [SBSTDummyForCoverageAndMutationCalculation, com.alibaba.fescar.core.model.BranchType_ESTest]
+Executions terminated
+Running the tests: [SBSTDummyForCoverageAndMutationCalculation, com.alibaba.fescar.core.model.BranchType_ESTest]
+Executions terminated
+Running the tests: [SBSTDummyForCoverageAndMutationCalculation, com.alibaba.fescar.core.model.BranchType_ESTest]
+Executions terminated
+Running the tests: [SBSTDummyForCoverageAndMutationCalculation, com.alibaba.fescar.core.model.BranchType_ESTest]
+Executions terminated
+
+=== Run Jacoco for Coverage ===
+Number of instrumented file = 5238
+Running tests with the following classpath: 
+/home/evosuite/results_evosuiteDSE_60/FESCAR-10_1/temp/testcases/fescar-core-0.1.0-SNAPSHOT_instrumented.jar:/home/evosuite/results_evosuiteDSE_60/FESCAR-10_1/temp/testcases/config-1.2.1_instrumented.jar:/home/evosuite/results_evosuiteDSE_60/FESCAR-10_1/temp/testcases/slf4j-api-1.7.22_instrumented.jar:/home/evosuite/results_evosuiteDSE_60/FESCAR-10_1/temp/testcases/logback-classic-1.1.6_instrumented.jar:/home/evosuite/results_evosuiteDSE_60/FESCAR-10_1/temp/testcases/netty-transport-native-unix-common-4.1.24.Final_instrumented.jar:/home/evosuite/results_evosuiteDSE_60/FESCAR-10_1/temp/testcases/netty-resolver-4.1.24.Final_instrumented.jar:/home/evosuite/results_evosuiteDSE_60/FESCAR-10_1/temp/testcases/junit-4.12_instrumented.jar:/home/evosuite/results_evosuiteDSE_60/FESCAR-10_1/temp/testcases/commons-pool-1.6_instrumented.jar:/home/evosuite/results_evosuiteDSE_60/FESCAR-10_1/temp/testcases/netty-buffer-4.1.24.Final_instrumented.jar:/home/evosuite/results_evosuiteDSE_60/FESCAR-10_1/temp/testcases/netty-transport-native-epoll-4.1.24.Final-linux-x86_64_instrumented.jar:/home/evosuite/results_evosuiteDSE_60/FESCAR-10_1/temp/testcases/netty-all-4.1.24.Final_instrumented.jar:/home/evosuite/results_evosuiteDSE_60/FESCAR-10_1/temp/testcases/hamcrest-core-1.3_instrumented.jar:/home/evosuite/results_evosuiteDSE_60/FESCAR-10_1/temp/testcases/netty-transport-native-kqueue-4.1.24.Final-osx-x86_64_instrumented.jar:/home/evosuite/results_evosuiteDSE_60/FESCAR-10_1/temp/testcases/fescar-config-0.1.0-SNAPSHOT_instrumented.jar:/home/evosuite/results_evosuiteDSE_60/FESCAR-10_1/temp/testcases/logback-core-1.1.6_instrumented.jar:/home/evosuite/results_evosuiteDSE_60/FESCAR-10_1/temp/testcases/commons-lang-2.6_instrumented.jar:/home/evosuite/results_evosuiteDSE_60/FESCAR-10_1/temp/testcases/fescar-common-0.1.0-SNAPSHOT_instrumented.jar:/home/evosuite/results_evosuiteDSE_60/FESCAR-10_1/temp/testcases/fastjson-1.2.48_instrumented.jar:/home/evosuite/results_evosuiteDSE_60/FESCAR-10_1/temp/testcases/netty-common-4.1.24.Final_instrumented.jar:/home/evosuite/results_evosuiteDSE_60/FESCAR-10_1/temp/testcases/netty-transport-4.1.24.Final_instrumented.jar:/home/evosuite/results_evosuiteDSE_60/FESCAR-10_1/temp/testcases/commons-pool2-2.4.2_instrumented.jar:/usr/local/bin/lib/hamcrest-core.jar:/usr/local/bin/lib/junit.jar:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/FESCAR-10_1/temp/testcases/bin
+Running the tests: [SBSTDummyForCoverageAndMutationCalculation, com.alibaba.fescar.core.model.BranchType_ESTest]
+Executions terminated
+Number of file with coverage information = 119
+Extracted coverage data for the class com/alibaba/fescar/core/model/BranchType
+Number of file with coverage information = 135
+Number of file with coverage information = 34
+Number of file with coverage information = 173
+Number of file with coverage information = 21
+Number of file with coverage information = 26
+Number of file with coverage information = 286
+Number of file with coverage information = 55
+Number of file with coverage information = 114
+Number of file with coverage information = 60
+Number of file with coverage information = 2528
+Number of file with coverage information = 45
+Number of file with coverage information = 47
+Number of file with coverage information = 7
+Number of file with coverage information = 366
+Number of file with coverage information = 133
+Number of file with coverage information = 14
+Number of file with coverage information = 221
+Number of file with coverage information = 439
+Number of file with coverage information = 347
+Number of file with coverage information = 68
+
+=== Run PIT ===
+Matching Jacoco with PIT: find covered mutations
+Executing Mutation Analysis using 6 mutants 
+Evaluating mutant -813981109 using tests: [com.alibaba.fescar.core.model.BranchType_ESTest, com.alibaba.fescar.core.model.BranchType_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/FESCAR-10_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/FESCAR-10_1/temp/testcases/bin:results_evosuiteDSE_60/FESCAR-10_1/temp/testcases/mutated_code/CUT0
+
+Skipped scaffolding test com.alibaba.fescar.core.model.BranchType_ESTest_scaffolding
+Failed test test0(com.alibaba.fescar.core.model.BranchType_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.alibaba.fescar.core.model.BranchType, method=get, methodDesc=(B)Lcom/alibaba/fescar/core/model/BranchType;], indexes=[5], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator] killed by test (com.alibaba.fescar.core.model.BranchType_ESTest),test0)
+Evaluating mutant 600416971 using tests: [com.alibaba.fescar.core.model.BranchType_ESTest, com.alibaba.fescar.core.model.BranchType_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/FESCAR-10_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/FESCAR-10_1/temp/testcases/bin:results_evosuiteDSE_60/FESCAR-10_1/temp/testcases/mutated_code/CUT1
+
+Skipped scaffolding test com.alibaba.fescar.core.model.BranchType_ESTest_scaffolding
+Failed test test1(com.alibaba.fescar.core.model.BranchType_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.alibaba.fescar.core.model.BranchType, method=get, methodDesc=(I)Lcom/alibaba/fescar/core/model/BranchType;], indexes=[32], mutator=org.pitest.mutationtest.engine.gregor.mutators.IncrementsMutator] killed by test (com.alibaba.fescar.core.model.BranchType_ESTest),test1)
+Evaluating mutant -596484602 using tests: [com.alibaba.fescar.core.model.BranchType_ESTest, com.alibaba.fescar.core.model.BranchType_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/FESCAR-10_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/FESCAR-10_1/temp/testcases/bin:results_evosuiteDSE_60/FESCAR-10_1/temp/testcases/mutated_code/CUT2
+
+Skipped scaffolding test com.alibaba.fescar.core.model.BranchType_ESTest_scaffolding
+Failed test test1(com.alibaba.fescar.core.model.BranchType_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.alibaba.fescar.core.model.BranchType, method=get, methodDesc=(I)Lcom/alibaba/fescar/core/model/BranchType;], indexes=[14], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator] killed by test (com.alibaba.fescar.core.model.BranchType_ESTest),test1)
+Evaluating mutant 1469454830 using tests: [com.alibaba.fescar.core.model.BranchType_ESTest, com.alibaba.fescar.core.model.BranchType_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/FESCAR-10_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/FESCAR-10_1/temp/testcases/bin:results_evosuiteDSE_60/FESCAR-10_1/temp/testcases/mutated_code/CUT3
+
+Skipped scaffolding test com.alibaba.fescar.core.model.BranchType_ESTest_scaffolding
+Failed test test0(com.alibaba.fescar.core.model.BranchType_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.alibaba.fescar.core.model.BranchType, method=get, methodDesc=(I)Lcom/alibaba/fescar/core/model/BranchType;], indexes=[14], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] killed by test (com.alibaba.fescar.core.model.BranchType_ESTest),test0)
+Evaluating mutant 165759529 using tests: [com.alibaba.fescar.core.model.BranchType_ESTest, com.alibaba.fescar.core.model.BranchType_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/FESCAR-10_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/FESCAR-10_1/temp/testcases/bin:results_evosuiteDSE_60/FESCAR-10_1/temp/testcases/mutated_code/CUT4
+
+Skipped scaffolding test com.alibaba.fescar.core.model.BranchType_ESTest_scaffolding
+Failed test test0(com.alibaba.fescar.core.model.BranchType_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.alibaba.fescar.core.model.BranchType, method=get, methodDesc=(I)Lcom/alibaba/fescar/core/model/BranchType;], indexes=[28], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator] killed by test (com.alibaba.fescar.core.model.BranchType_ESTest),test0)
+Evaluating mutant 1469464440 using tests: [com.alibaba.fescar.core.model.BranchType_ESTest, com.alibaba.fescar.core.model.BranchType_ESTest_scaffolding]
+
+ CP : /usr/local/bin/lib/junit.jar:/usr/local/bin/lib/hamcrest-core.jar:results_evosuiteDSE_60/FESCAR-10_1/temp/testcases/mutated_code/SUT:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar:/home/evosuite/results_evosuiteDSE_60/FESCAR-10_1/temp/testcases/bin:results_evosuiteDSE_60/FESCAR-10_1/temp/testcases/mutated_code/CUT5
+
+Skipped scaffolding test com.alibaba.fescar.core.model.BranchType_ESTest_scaffolding
+Failed test test0(com.alibaba.fescar.core.model.BranchType_ESTest)
+	 actual test, will stop test execution !
+TestExec4MutationTask: Mutant MutationIdentifier [location=Location [clazz=com.alibaba.fescar.core.model.BranchType, method=get, methodDesc=(I)Lcom/alibaba/fescar/core/model/BranchType;], indexes=[24], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] killed by test (com.alibaba.fescar.core.model.BranchType_ESTest),test0)
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.alibaba.fescar.core.model.BranchType, method=get, methodDesc=(B)Lcom/alibaba/fescar/core/model/BranchType;], indexes=[5], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator], filename=BranchType.java, block=1, lineNumber=28, description=mutated return of Object value for com/alibaba/fescar/core/model/BranchType::get to ( if (x != null) null else throw new RuntimeException ), testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.alibaba.fescar.core.model.BranchType, method=get, methodDesc=(I)Lcom/alibaba/fescar/core/model/BranchType;], indexes=[32], mutator=org.pitest.mutationtest.engine.gregor.mutators.IncrementsMutator], filename=BranchType.java, block=5, lineNumber=31, description=Changed increment from 1 to -1, testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.alibaba.fescar.core.model.BranchType, method=get, methodDesc=(I)Lcom/alibaba/fescar/core/model/BranchType;], indexes=[14], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator], filename=BranchType.java, block=2, lineNumber=31, description=changed conditional boundary, testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.alibaba.fescar.core.model.BranchType, method=get, methodDesc=(I)Lcom/alibaba/fescar/core/model/BranchType;], indexes=[14], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=BranchType.java, block=2, lineNumber=31, description=negated conditional, testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.alibaba.fescar.core.model.BranchType, method=get, methodDesc=(I)Lcom/alibaba/fescar/core/model/BranchType;], indexes=[28], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator], filename=BranchType.java, block=4, lineNumber=33, description=mutated return of Object value for com/alibaba/fescar/core/model/BranchType::get to ( if (x != null) null else throw new RuntimeException ), testsInOrder=[]]
+mutationResult.getState() KILLED
+* Killed mutant MutationDetails [id=MutationIdentifier [location=Location [clazz=com.alibaba.fescar.core.model.BranchType, method=get, methodDesc=(I)Lcom/alibaba/fescar/core/model/BranchType;], indexes=[24], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=BranchType.java, block=3, lineNumber=32, description=negated conditional, testsInOrder=[]]
+
+>>> RESULTS:
+	Tool name: evosuiteDSE
+	Benchmark: FESCAR-10
+	Class Under Test: com.alibaba.fescar.core.model.BranchType
+	Run number: 1
+	Tool preparation time (ms): 224
+	Tool test cases generation time (ms): 4775
+	Test cases execution time (ms): 923
+	Test case number: 2
+	Uncompilable Test Classes: 0
+	Broken tests number: 0
+	Failing tests number: 0
+	Lines total: 8
+	Lines covered: 8
+	Lines coverage ratio (%): 100.0
+	Conditions total: 4
+	Conditions covered: 4
+	Conditions coverage ratio (%): 100.0
+	Mutants total: 6
+	Mutants covered: 6
+	Mutants coverage ratio (%): 100.0
+	Mutants killed: 6
+	Mutants killed ratio (%): 100.0
+	Mutants alive: 0
+
+
+Class com.alibaba.fescar.core.model.BranchType ended.
+Stopping process...
+Tool subprocess is an instance of java.lang.UNIXProcess
+Tool subprocess Id is 27697
+Killing master process 27697
+Executing command kill -9 27697
+Execution of command kill -9 27697 finished.
+Process was destroyed

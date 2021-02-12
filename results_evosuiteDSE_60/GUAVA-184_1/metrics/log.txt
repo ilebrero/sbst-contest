@@ -1,0 +1,51 @@
+
+>>> TOOL NAME:  evosuiteDSE
+
+>>> BENCHMARK:  GUAVA-184
+
+>>> RUN NUMBER: 1
+
+>>> MODE: --only-compute-metrics
+
+
+### COMPUTING METRICS ###: com.google.thirdparty.publicsuffix.PublicSuffixType
+
+---Compilation---
+Compiling with scaffolding tests
+>>  /home/evosuite/results_evosuiteDSE_60/GUAVA-184_1/temp/testcases/com/google/thirdparty/publicsuffix/PublicSuffixType_ESTest_scaffolding.java /home/evosuite/results_evosuiteDSE_60/GUAVA-184_1/temp/testcases/com/google/thirdparty/publicsuffix/PublicSuffixType_ESTest.java
+Compiled 'com/google/thirdparty/publicsuffix/PublicSuffixType_ESTest.java'
+Compiling with scaffolding tests
+
+---Timing Information---
+
+---The tests are re-executed other four times to find the flaky ones---
+
+=== Run Jacoco for Coverage ===
+
+=== Run PIT ===
+Executing Mutation Analysis using 10 mutants 
+
+>>> RESULTS:
+	Tool name: evosuiteDSE
+	Benchmark: GUAVA-184
+	Class Under Test: com.google.thirdparty.publicsuffix.PublicSuffixType
+	Run number: 1
+	Tool preparation time (ms): 198
+	Tool test cases generation time (ms): 3833
+	Test cases execution time (ms): 302
+	Test case number: 1
+	Uncompilable Test Classes: 0
+	Broken tests number: 0
+	Failing tests number: 0
+	Lines total: 14
+	Lines covered: 0
+	Lines coverage ratio (%): 0.0
+	Conditions total: 8
+	Conditions covered: 0
+	Conditions coverage ratio (%): 0.0
+	Mutants total: 10
+	Mutants covered: 0
+	Mutants coverage ratio (%): 0.0
+	Mutants killed: 0
+	Mutants killed ratio (%): 0.0
+	Mutants alive: 10

@@ -1,0 +1,13 @@
+N. of generated mutants 5
+N. of covered mutants 3
+N. of killed mutants 1
+N. of ignored mutants 0
+
+
+ --- Tests killing mutants --- 
+ Mutant: 0	 ---> MutationDetails [id=MutationIdentifier [location=Location [clazz=com.google.common.io.Closeables, method=close, methodDesc=(Ljava/io/Closeable;Z)V], indexes=[4], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=Closeables.java, block=1, lineNumber=74, description=negated conditional, testsInOrder=[]]
+
+
+ --- Mutants details--- 
+ Mutant: 0, killed by tests [(com.google.common.io.Closeables_ESTest),test1)]
+

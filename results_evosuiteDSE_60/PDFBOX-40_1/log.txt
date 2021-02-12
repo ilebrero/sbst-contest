@@ -1,0 +1,8 @@
+
+>>> TOOL NAME:  evosuiteDSE
+
+>>> BENCHMARK:  PDFBOX-40
+
+>>> RUN NUMBER: 1
+
+>>> MODE: --only-generate-tests

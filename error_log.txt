@@ -1,0 +1,820 @@
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/evosuite/results_evosuiteDSE_60/FESCAR-28_1/temp/testcases/logback-classic-1.1.6_instrumented.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/evosuite/results_evosuiteDSE_60/FESCAR-13_1/temp/testcases/logback-classic-1.1.6_instrumented.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+java.io.IOException: Not a valid directory name: /var/benchmarks/projects/pdfbox/pdfbox/src/main/java
+	at sbst.runtool.SBSTChannel.directory(SBSTChannel.java:38)
+	at sbst.runtool.RunTool.run(RunTool.java:24)
+	at sbst.runtool.Main.main(Main.java:13)
+mv: cannot stat '*.log': No such file or directory
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+java.io.IOException: Not a valid directory name: /var/benchmarks/projects/pdfbox/pdfbox/src/main/java
+	at sbst.runtool.SBSTChannel.directory(SBSTChannel.java:38)
+	at sbst.runtool.RunTool.run(RunTool.java:24)
+	at sbst.runtool.Main.main(Main.java:13)
+mv: cannot stat '*.log': No such file or directory
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+java.io.IOException: Not a valid directory name: /var/benchmarks/projects/pdfbox/pdfbox/src/main/java
+	at sbst.runtool.SBSTChannel.directory(SBSTChannel.java:38)
+	at sbst.runtool.RunTool.run(RunTool.java:24)
+	at sbst.runtool.Main.main(Main.java:13)
+mv: cannot stat '*.log': No such file or directory
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+java.io.IOException: Not a valid directory name: /var/benchmarks/projects/pdfbox/pdfbox/src/main/java
+	at sbst.runtool.SBSTChannel.directory(SBSTChannel.java:38)
+	at sbst.runtool.RunTool.run(RunTool.java:24)
+	at sbst.runtool.Main.main(Main.java:13)
+mv: cannot stat '*.log': No such file or directory
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+java.io.IOException: Not a valid directory name: /var/benchmarks/projects/pdfbox/pdfbox/src/main/java
+	at sbst.runtool.SBSTChannel.directory(SBSTChannel.java:38)
+	at sbst.runtool.RunTool.run(RunTool.java:24)
+	at sbst.runtool.Main.main(Main.java:13)
+mv: cannot stat '*.log': No such file or directory
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+java.io.IOException: Not a valid directory name: /var/benchmarks/projects/pdfbox/pdfbox/src/main/java
+	at sbst.runtool.SBSTChannel.directory(SBSTChannel.java:38)
+	at sbst.runtool.RunTool.run(RunTool.java:24)
+	at sbst.runtool.Main.main(Main.java:13)
+mv: cannot stat '*.log': No such file or directory
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+java.io.IOException: Not a valid directory name: /var/benchmarks/projects/pdfbox/pdfbox/src/main/java
+	at sbst.runtool.SBSTChannel.directory(SBSTChannel.java:38)
+	at sbst.runtool.RunTool.run(RunTool.java:24)
+	at sbst.runtool.Main.main(Main.java:13)
+mv: cannot stat '*.log': No such file or directory
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+java.io.IOException: Not a valid directory name: /var/benchmarks/projects/pdfbox/pdfbox/src/main/java
+	at sbst.runtool.SBSTChannel.directory(SBSTChannel.java:38)
+	at sbst.runtool.RunTool.run(RunTool.java:24)
+	at sbst.runtool.Main.main(Main.java:13)
+mv: cannot stat '*.log': No such file or directory
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+java.io.IOException: Not a valid directory name: /var/benchmarks/projects/pdfbox/pdfbox/src/main/java
+	at sbst.runtool.SBSTChannel.directory(SBSTChannel.java:38)
+	at sbst.runtool.RunTool.run(RunTool.java:24)
+	at sbst.runtool.Main.main(Main.java:13)
+mv: cannot stat '*.log': No such file or directory
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+java.io.IOException: Not a valid directory name: /var/benchmarks/projects/pdfbox/pdfbox/src/main/java
+	at sbst.runtool.SBSTChannel.directory(SBSTChannel.java:38)
+	at sbst.runtool.RunTool.run(RunTool.java:24)
+	at sbst.runtool.Main.main(Main.java:13)
+mv: cannot stat '*.log': No such file or directory
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/evosuite/results_evosuiteDSE_60/FESCAR-8_1/temp/testcases/logback-classic-1.1.6_instrumented.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/evosuite/results_evosuiteDSE_60/FESCAR-17_1/temp/testcases/logback-classic-1.1.6_instrumented.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/evosuite/results_evosuiteDSE_60/FESCAR-33_1/temp/testcases/logback-classic-1.1.6_instrumented.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/evosuite/results_evosuiteDSE_60/FESCAR-9_1/temp/testcases/logback-classic-1.1.6_instrumented.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+java.io.IOException: Not a valid directory name: /var/benchmarks/projects/pdfbox/pdfbox/src/main/java
+	at sbst.runtool.SBSTChannel.directory(SBSTChannel.java:38)
+	at sbst.runtool.RunTool.run(RunTool.java:24)
+	at sbst.runtool.Main.main(Main.java:13)
+mv: cannot stat '*.log': No such file or directory
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/evosuite/results_evosuiteDSE_60/FESCAR-2_1/temp/testcases/logback-classic-1.1.6_instrumented.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+java.io.IOException: Not a valid directory name: /var/benchmarks/projects/pdfbox/pdfbox/src/main/java
+	at sbst.runtool.SBSTChannel.directory(SBSTChannel.java:38)
+	at sbst.runtool.RunTool.run(RunTool.java:24)
+	at sbst.runtool.Main.main(Main.java:13)
+mv: cannot stat '*.log': No such file or directory
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+java.io.IOException: Not a valid directory name: /var/benchmarks/projects/pdfbox/pdfbox/src/main/java
+	at sbst.runtool.SBSTChannel.directory(SBSTChannel.java:38)
+	at sbst.runtool.RunTool.run(RunTool.java:24)
+	at sbst.runtool.Main.main(Main.java:13)
+mv: cannot stat '*.log': No such file or directory
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+java.io.IOException: Not a valid directory name: /var/benchmarks/projects/pdfbox/pdfbox/src/main/java
+	at sbst.runtool.SBSTChannel.directory(SBSTChannel.java:38)
+	at sbst.runtool.RunTool.run(RunTool.java:24)
+	at sbst.runtool.Main.main(Main.java:13)
+mv: cannot stat '*.log': No such file or directory
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+java.io.IOException: Not a valid directory name: /var/benchmarks/projects/pdfbox/pdfbox/src/main/java
+	at sbst.runtool.SBSTChannel.directory(SBSTChannel.java:38)
+	at sbst.runtool.RunTool.run(RunTool.java:24)
+	at sbst.runtool.Main.main(Main.java:13)
+mv: cannot stat '*.log': No such file or directory
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+java.io.IOException: Not a valid directory name: /var/benchmarks/projects/pdfbox/pdfbox/src/main/java
+	at sbst.runtool.SBSTChannel.directory(SBSTChannel.java:38)
+	at sbst.runtool.RunTool.run(RunTool.java:24)
+	at sbst.runtool.Main.main(Main.java:13)
+mv: cannot stat '*.log': No such file or directory
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+java.io.IOException: Not a valid directory name: /var/benchmarks/projects/pdfbox/pdfbox/src/main/java
+	at sbst.runtool.SBSTChannel.directory(SBSTChannel.java:38)
+	at sbst.runtool.RunTool.run(RunTool.java:24)
+	at sbst.runtool.Main.main(Main.java:13)
+mv: cannot stat '*.log': No such file or directory
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/evosuite/results_evosuiteDSE_60/FESCAR-37_1/temp/testcases/logback-classic-1.1.6_instrumented.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+java.io.IOException: Not a valid directory name: /var/benchmarks/projects/pdfbox/pdfbox/src/main/java
+	at sbst.runtool.SBSTChannel.directory(SBSTChannel.java:38)
+	at sbst.runtool.RunTool.run(RunTool.java:24)
+	at sbst.runtool.Main.main(Main.java:13)
+mv: cannot stat '*.log': No such file or directory
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+java.io.IOException: Not a valid directory name: /var/benchmarks/projects/pdfbox/pdfbox/src/main/java
+	at sbst.runtool.SBSTChannel.directory(SBSTChannel.java:38)
+	at sbst.runtool.RunTool.run(RunTool.java:24)
+	at sbst.runtool.Main.main(Main.java:13)
+mv: cannot stat '*.log': No such file or directory
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/evosuite/results_evosuiteDSE_60/FESCAR-12_1/temp/testcases/logback-classic-1.1.6_instrumented.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/evosuite/results_evosuiteDSE_60/FESCAR-15_1/temp/testcases/logback-classic-1.1.6_instrumented.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/evosuite/results_evosuiteDSE_60/FESCAR-23_1/temp/testcases/logback-classic-1.1.6_instrumented.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/evosuite/results_evosuiteDSE_60/FESCAR-32_1/temp/testcases/logback-classic-1.1.6_instrumented.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/evosuite/results_evosuiteDSE_60/FESCAR-34_1/temp/testcases/logback-classic-1.1.6_instrumented.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/evosuite/results_evosuiteDSE_60/FESCAR-5_1/temp/testcases/logback-classic-1.1.6_instrumented.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/evosuite/results_evosuiteDSE_60/FESCAR-10_1/temp/testcases/logback-classic-1.1.6_instrumented.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/evosuite/results_evosuiteDSE_60/FESCAR-7_1/temp/testcases/logback-classic-1.1.6_instrumented.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/benchmarks/projects/fescar/core/target/dependency/logback-classic-1.1.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/evosuite/results_evosuiteDSE_60/FESCAR-25_1/temp/testcases/logback-classic-1.1.6_instrumented.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/evosuite/lib/evosuite-master-1.0.7-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-8u282-b08-0ubuntu1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+java.io.IOException: Not a valid directory name: /var/benchmarks/projects/pdfbox/pdfbox/src/main/java
+	at sbst.runtool.SBSTChannel.directory(SBSTChannel.java:38)
+	at sbst.runtool.RunTool.run(RunTool.java:24)
+	at sbst.runtool.Main.main(Main.java:13)
+mv: cannot stat '*.log': No such file or directory

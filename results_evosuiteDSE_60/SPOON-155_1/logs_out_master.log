@@ -1,0 +1,1 @@
+[MASTER] 08:41:26.513 [logback-1] WARN  TestUsageChecker - class spoon.reflect.visitor.filter.AllMethodsSameSignatureFunction$1Context looks like an anonymous class, ignoring it (although reflection says false) Context

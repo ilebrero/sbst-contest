@@ -1,0 +1,72 @@
+* EvoSuite 1.1.1-SNAPSHOT
+* Going to generate test cases for class: com.google.common.base.Throwables
+* Starting Client-0
+* Connecting to master process on port 15645
+* Analyzing classpath: 
+  - /var/benchmarks/projects/guava/guava/target/classes
+  - /var/benchmarks/projects/guava/guava/target/guava-28.2-jre.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.common.base.Throwables
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up DSE test suite generation
+* Total number of test goals: 48
+* Using seed 1613118898506
+* Starting DSE
+* Using DSE algorithm: GENERATIONAL_SEARCH
+* With timeout: 35
+* With target coverage: 100
+* Symbolic arrays support enabled: true
+* Symbolic arrays implementation selected: LAZY_VARIABLES
+* Generating tests for entry method: lazyStackTraceIsLazy
+* DSE test generation finished. Generated 1 test for method lazyStackTraceIsLazy.
+* Generating tests for entry method: propagate
+* DSE test generation finished. Generated 1 test for method propagate.
+* Generating tests for entry method: getStackTraceAsString
+* DSE test generation finished. Generated 1 test for method getStackTraceAsString.
+* Generating tests for entry method: getCauseAs
+* DSE test generation finished. Generated 1 test for method getCauseAs.
+* Generating tests for entry method: getRootCause
+* DSE test generation finished. Generated 1 test for method getRootCause.
+* Generating tests for entry method: getCausalChain
+* DSE test generation finished. Generated 1 test for method getCausalChain.
+* Generating tests for entry method: lazyStackTrace
+* DSE test generation finished. Generated 1 test for method lazyStackTrace.
+* Generating tests for entry method: propagateIfInstanceOf
+* DSE test generation finished. Generated 1 test for method propagateIfInstanceOf.
+* Generating tests for entry method: propagateIfPossible
+* DSE test generation finished. Generated 1 test for method propagateIfPossible.
+* Generating tests for entry method: propagateIfPossible
+* DSE test generation finished. Generated 1 test for method propagateIfPossible.
+* Generating tests for entry method: propagateIfPossible
+* DSE test generation finished. Generated 1 test for method propagateIfPossible.
+* Generating tests for entry method: throwIfInstanceOf
+* DSE test generation finished. Generated 1 test for method throwIfInstanceOf.
+* Generating tests for entry method: throwIfUnchecked
+* DSE test generation finished. Generated 1 test for method throwIfUnchecked.
+* Generating tests for entry method: access$100
+* DSE test generation finished. Generated 1 test for method access$100.
+* Generating tests for entry method: access$200
+* DSE test generation finished. Generated 1 test for method access$200.
+* Generating tests for entry method: access$000
+* DSE test generation finished. Generated 1 test for method access$000.
+* Generating tests for entry method: access$300
+* DSE test generation finished. Generated 1 test for method access$300.
+* Search finished after 0s, fitness: 36.0 and coverage: 0.22916666666666666
+* Minimizing test suite
+* Generated 6 tests with total length 15
+* Resulting test suite's coverage: 23%
+* Generating assertions
+* Compiling and checking tests
+* Writing tests to file
+* Writing JUnit test case 'Throwables_ESTest' to temp/testcases
+* Done!
+
+* Computation finished

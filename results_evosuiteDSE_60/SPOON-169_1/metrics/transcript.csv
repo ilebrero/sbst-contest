@@ -1,0 +1,6 @@
+tool,benchmark,class,run,preparationTime,generationTime,executionTime,testcaseNumber,uncompilableNumber,brokenTests,failTests,linesTotal,linesCovered,linesCoverageRatio,conditionsTotal,conditionsCovered,conditionsCoverageRatio,mutantsTotal,mutantsCovered,mutantsCoverageRatio,mutantsKilled,mutantsKillRatio,mutantsAlive,timeBudget,totalTestClasses
+evosuiteDSE,SPOON-169,spoon.reflect.visitor.ImportScannerImpl,1,212,8521,534,1,0,0,0,439,0,0.0,364,0,0.0,143,0,0.0,0,0.0,143,60,2
+ 
+ 
+ 
+
