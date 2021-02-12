@@ -1,6 +1,0 @@
-tool,benchmark,class,run,preparationTime,generationTime,executionTime,testcaseNumber,uncompilableNumber,brokenTests,failTests,linesTotal,linesCovered,linesCoverageRatio,conditionsTotal,conditionsCovered,conditionsCoverageRatio,mutantsTotal,mutantsCovered,mutantsCoverageRatio,mutantsKilled,mutantsKillRatio,mutantsAlive,timeBudget,totalTestClasses
-evosuiteDSE,GUAVA-22,com.google.common.graph.Graphs,1,203,4251,13,0,0,0,0,153,0,0.0,108,0,0.0,0,0,0.0,0,0.0,0,60,0
- 
- 
- 
-

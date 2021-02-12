@@ -1,6 +1,0 @@
-tool,benchmark,class,run,preparationTime,generationTime,executionTime,testcaseNumber,uncompilableNumber,brokenTests,failTests,linesTotal,linesCovered,linesCoverageRatio,conditionsTotal,conditionsCovered,conditionsCoverageRatio,mutantsTotal,mutantsCovered,mutantsCoverageRatio,mutantsKilled,mutantsKillRatio,mutantsAlive,timeBudget,totalTestClasses
-evosuiteDSE,GUAVA-2,com.google.common.collect.MinMaxPriorityQueue,1,226,4989,14,0,0,0,0,106,0,0.0,53,0,0.0,0,0,0.0,0,0.0,0,60,0
- 
- 
- 
-

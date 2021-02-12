@@ -1,6 +1,0 @@
-tool,benchmark,class,run,preparationTime,generationTime,executionTime,testcaseNumber,uncompilableNumber,brokenTests,failTests,linesTotal,linesCovered,linesCoverageRatio,conditionsTotal,conditionsCovered,conditionsCoverageRatio,mutantsTotal,mutantsCovered,mutantsCoverageRatio,mutantsKilled,mutantsKillRatio,mutantsAlive,timeBudget,totalTestClasses
-evosuiteDSE,GUAVA-177,com.google.common.primitives.Doubles,1,200,5109,16,0,0,0,0,104,0,0.0,58,0,0.0,0,0,0.0,0,0.0,0,60,0
- 
- 
- 
-

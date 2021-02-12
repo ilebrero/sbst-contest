@@ -1,6 +1,0 @@
-tool,benchmark,class,run,preparationTime,generationTime,executionTime,testcaseNumber,uncompilableNumber,brokenTests,failTests,linesTotal,linesCovered,linesCoverageRatio,conditionsTotal,conditionsCovered,conditionsCoverageRatio,mutantsTotal,mutantsCovered,mutantsCoverageRatio,mutantsKilled,mutantsKillRatio,mutantsAlive,timeBudget,totalTestClasses
-evosuiteDSE,SPOON-211,spoon.reflect.path.impl.CtRolePathElement,1,217,7849,514,1,0,0,0,59,0,0.0,39,0,0.0,24,0,0.0,0,0.0,24,60,2
- 
- 
- 
-

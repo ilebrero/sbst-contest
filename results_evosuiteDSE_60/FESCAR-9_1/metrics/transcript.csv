@@ -1,6 +1,0 @@
-tool,benchmark,class,run,preparationTime,generationTime,executionTime,testcaseNumber,uncompilableNumber,brokenTests,failTests,linesTotal,linesCovered,linesCoverageRatio,conditionsTotal,conditionsCovered,conditionsCoverageRatio,mutantsTotal,mutantsCovered,mutantsCoverageRatio,mutantsKilled,mutantsKillRatio,mutantsAlive,timeBudget,totalTestClasses
-evosuiteDSE,FESCAR-9,com.alibaba.fescar.core.protocol.transaction.GlobalBeginRequest,1,216,5030,391,1,0,0,0,30,0,0.0,6,0,0.0,11,0,0.0,0,0.0,11,60,2
- 
- 
- 
-

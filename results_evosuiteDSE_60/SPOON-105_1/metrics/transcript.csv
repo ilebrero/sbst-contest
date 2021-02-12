@@ -1,6 +1,0 @@
-tool,benchmark,class,run,preparationTime,generationTime,executionTime,testcaseNumber,uncompilableNumber,brokenTests,failTests,linesTotal,linesCovered,linesCoverageRatio,conditionsTotal,conditionsCovered,conditionsCoverageRatio,mutantsTotal,mutantsCovered,mutantsCoverageRatio,mutantsKilled,mutantsKillRatio,mutantsAlive,timeBudget,totalTestClasses
-evosuiteDSE,SPOON-105,spoon.support.compiler.jdt.PositionBuilder,1,215,44470,492,1,0,0,0,363,0,0.0,278,0,0.0,170,0,0.0,0,0.0,170,60,2
- 
- 
- 
-

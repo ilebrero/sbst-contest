@@ -1,6 +1,0 @@
-tool,benchmark,class,run,preparationTime,generationTime,executionTime,testcaseNumber,uncompilableNumber,brokenTests,failTests,linesTotal,linesCovered,linesCoverageRatio,conditionsTotal,conditionsCovered,conditionsCoverageRatio,mutantsTotal,mutantsCovered,mutantsCoverageRatio,mutantsKilled,mutantsKillRatio,mutantsAlive,timeBudget,totalTestClasses
-evosuiteDSE,GUAVA-47,com.google.common.collect.FilteredEntryMultimap,1,195,4934,283,1,0,0,0,38,0,0.0,14,0,0.0,26,0,0.0,0,0.0,26,60,2
- 
- 
- 
-

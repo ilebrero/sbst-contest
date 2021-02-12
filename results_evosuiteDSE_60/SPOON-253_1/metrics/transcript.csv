@@ -1,6 +1,0 @@
-tool,benchmark,class,run,preparationTime,generationTime,executionTime,testcaseNumber,uncompilableNumber,brokenTests,failTests,linesTotal,linesCovered,linesCoverageRatio,conditionsTotal,conditionsCovered,conditionsCoverageRatio,mutantsTotal,mutantsCovered,mutantsCoverageRatio,mutantsKilled,mutantsKillRatio,mutantsAlive,timeBudget,totalTestClasses
-evosuiteDSE,SPOON-253,spoon.pattern.internal.parameter.MapParameterInfo,1,222,7630,514,1,0,0,0,57,0,0.0,32,0,0.0,33,0,0.0,0,0.0,33,60,2
- 
- 
- 
-

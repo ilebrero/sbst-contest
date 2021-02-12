@@ -1,6 +1,0 @@
-tool,benchmark,class,run,preparationTime,generationTime,executionTime,testcaseNumber,uncompilableNumber,brokenTests,failTests,linesTotal,linesCovered,linesCoverageRatio,conditionsTotal,conditionsCovered,conditionsCoverageRatio,mutantsTotal,mutantsCovered,mutantsCoverageRatio,mutantsKilled,mutantsKillRatio,mutantsAlive,timeBudget,totalTestClasses
-evosuiteDSE,FESCAR-15,com.alibaba.fescar.core.rpc.netty.RpcServer,1,208,24247,394,1,0,0,0,122,0,0.0,52,0,0.0,49,0,0.0,0,0.0,49,60,2
- 
- 
- 
-

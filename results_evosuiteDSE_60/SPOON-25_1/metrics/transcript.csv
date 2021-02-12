@@ -1,6 +1,0 @@
-tool,benchmark,class,run,preparationTime,generationTime,executionTime,testcaseNumber,uncompilableNumber,brokenTests,failTests,linesTotal,linesCovered,linesCoverageRatio,conditionsTotal,conditionsCovered,conditionsCoverageRatio,mutantsTotal,mutantsCovered,mutantsCoverageRatio,mutantsKilled,mutantsKillRatio,mutantsAlive,timeBudget,totalTestClasses
-evosuiteDSE,SPOON-25,spoon.pattern.internal.ValueConvertorImpl,1,209,7716,506,1,0,0,0,80,0,0.0,84,0,0.0,72,0,0.0,0,0.0,72,60,2
- 
- 
- 
-

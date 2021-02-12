@@ -1,6 +1,0 @@
-tool,benchmark,class,run,preparationTime,generationTime,executionTime,testcaseNumber,uncompilableNumber,brokenTests,failTests,linesTotal,linesCovered,linesCoverageRatio,conditionsTotal,conditionsCovered,conditionsCoverageRatio,mutantsTotal,mutantsCovered,mutantsCoverageRatio,mutantsKilled,mutantsKillRatio,mutantsAlive,timeBudget,totalTestClasses
-evosuiteDSE,GUAVA-184,com.google.thirdparty.publicsuffix.PublicSuffixType,1,198,3833,302,1,0,0,0,14,0,0.0,8,0,0.0,10,0,0.0,0,0.0,10,60,2
- 
- 
- 
-
