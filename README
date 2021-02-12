@@ -6,7 +6,7 @@ Details
 
 The DSE module is an ongoing work which is not currently merged into Evosuite's main repository.
 
-For more information about this module see http://dc.sigedep.exactas.uba.ar/media/academic/grade/thesis/Tesis_Ignacio_Lebrero.pdf) thesis (only in Spanish for now) and it's related [PR](https://github.com/EvoSuite/evosuite/pull/281. (Will update when it's merged)
+For more information about this module see this thesis (http://dc.sigedep.exactas.uba.ar/media/academic/grade/thesis/Tesis_Ignacio_Lebrero.pdf) (only in Spanish for now) and it's related PR (https://github.com/EvoSuite/evosuite/pull/281) (Will update when it's merged).
 
 Execution
 ---------
