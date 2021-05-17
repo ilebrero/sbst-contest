@@ -1,9 +1,9 @@
 # Evosuite DSE module configuration for the SBST Tool competition
 
 ## Details
-The DSE module is an ongoing work which is not currently merged into Evosuite's main repository. Current Resources:
+For a deep dive on the module's design and current features you can check this resources:
 - DSE module thesis (Only in Spanish for now): http://dc.sigedep.exactas.uba.ar/media/academic/grade/thesis/Tesis_Ignacio_Lebrero.pdf
-- DSE module PR ((Will update when it's merged).): https://github.com/EvoSuite/evosuite/pull/281
+- DSE module update PR: https://github.com/EvoSuite/evosuite/pull/281
 
 ## Execution
 Follow the steps and examples in https://github.com/JUnitContest/junitcontest/blob/master/docs/USERGUIDE.md
